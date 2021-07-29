@@ -20,7 +20,7 @@
         "employer": "Génesis Aplicaciones",
         "current": true,
         "start": "2020-01",
-        "end": "",
+        "end": "2021-07",
         "keywords": [],
         "highlights": [
           "I was in charge of developing and maintaining several solutions, the main one being the TimbraXML billing web application. It was the first time I felt I contributed things to a development team: good solutions for complex developments, turning repetitive processes into documented libraries, good flows with Git and promoting the use of modern and more readable syntax. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a development team, supported by version control tools, progression boards and effective communication channels."
@@ -41,7 +41,6 @@
         "employer": "Marbol Industria Mueblera",
         "start": "2018-01",
         "end": "2016-08",
-        "url": "",
         "keywords": [],
         "highlights": [
           "Member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. I was responsible for designing several modules of the ERP system and some sections of the company's database. Working there taught me to have a larger scale vision of a system and to understand the importance of knowing a problem in depth before writing even one line of code trying to solve it."
@@ -64,30 +63,6 @@
   },
   "skills": {
     "sets": [
-      {
-        "name": "Soft skills",
-        "level": "",
-        "skills": [
-          " Analytical skills",
-          "detail-oriented ",
-          "critical thinking",
-          "integrity",
-          "leadership ",
-          "research"
-        ]
-      },
-      {
-        "skills": [
-          "stress management",
-          "business vision",
-          "written and oral communication"
-        ]
-      },
-      {
-        "skills": [
-          null
-        ]
-      },
       {
         "name": "Programming languages",
         "skills": [
@@ -112,8 +87,18 @@
         ]
       },
       {
+        "name": "Soft skills",
+        "level": "",
         "skills": [
-          ""
+          "Analytical skills",
+          "detail-oriented ",
+          "critical thinking",
+          "integrity",
+          "leadership ",
+          "research",
+          "stress management",
+          "business vision",
+          "written and oral communication"
         ]
       }
     ]
@@ -121,7 +106,7 @@
   "recognition": [
     {
       "title": "Hackathon HackSureste 2018",
-      "date": "Noviembre de 2018",
+      "date": "2018-11",
       "from": "Team MeseBot",
       "summary": "Awarded third place for creating a high-impact innovation project. It consists of a system to deliver restaurant orders directly from the diner to the kitchen through voice commands."
     }
