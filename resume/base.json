@@ -1,0 +1,194 @@
+{
+  "basics": {
+    "name": "Giovanny González Baltazar",
+    "label": "",
+    "picture": "",
+    "email": "giovanny.gonzalez.19@gmail.com",
+    "phone": "9991454542",
+    "website": "https://github.com/gggiovanny",
+    "summary": "",
+    "location": {
+      "address": "125B 298 San Nicolás del Sur",
+      "postalCode": "97285",
+      "city": "Mérida, Yucatán",
+      "countryCode": "MX",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "giovanny-gonzalez-baltazar",
+        "url": "https://www.linkedin.com/in/giovanny-gonzalez-baltazar/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Génesis Aplicaciones",
+      "position": "Junior Web Developer",
+      "website": "",
+      "startDate": "2020-01-08",
+      "endDate": "2021-07-16",
+      "summary": "I was in charge of developing and maintaining several solutions, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a development team, supported by version control tools, progression boards and effective communication channels.",
+      "highlights": [
+        "Good solutions for complex developments.",
+        "Turning repetitive processes into documented libraries.",
+        "Good flows with Git.",
+        "Promoting the use of modern and more readable .syntax"
+      ]
+    },
+    {
+      "company": "Grupo Dicas",
+      "position": "Technical Support Assistant",
+      "website": "",
+      "startDate": "2019-06-17",
+      "endDate": "2019-12-20",
+      "summary": "Originally tasked to be an assistant in technical support and server administration, I ended up doing all the engineering process to develop an Android application. During the time I was providing support, I learned to gather and interpret information about the experience of using software by users with little or no computer knowledge. During the development of the application I learned about modern software design architectures (MVVM and observer pattern), how to reverse engineer an existing system to integrate it to another with zero documentation, how to implement a REST API with PHP and Laravel, as well as how to secure the requests to the server through JSON Web Tokens.",
+      "highlights": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "company": "Systems development trainee",
+      "position": "Marbol Industria Mueblera",
+      "website": "",
+      "startDate": "2018-06-04",
+      "endDate": "2021-08-10",
+      "summary": "Member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. I was responsible for designing several modules of the ERP system and some sections of the company's database. Working there taught me to have a larger scale vision of a system and to understand the importance of knowing a problem in depth before writing even one line of code trying to solve it.",
+      "highlights": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Scouts de México",
+      "position": "Jefe de Tropa",
+      "website": "https://scouts.org.mx/",
+      "startDate": "2019-03-16",
+      "summary": "",
+      "highlights": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Mérida",
+      "area": "Computer Systems Engineer",
+      "studyType": "Engineer",
+      "startDate": "2016-08-15",
+      "endDate": "2020-12-11",
+      "gpa": "91.69",
+      "courses": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "3rd place in HackSureste 2018",
+      "date": "2018-11-23",
+      "awarder": "Team MeseBot",
+      "summary": "Awarded third place for creating a high-impact innovation project. It consists of a system to deliver restaurant orders directly from the diner to the kitchen through voice commands."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Costeapp",
+      "publisher": "",
+      "releaseDate": "2020",
+      "website": "https://github.com/gggiovanny/costeos_app",
+      "summary": "Web application wrote in React capable of running offline that allows costing of cooking recipes."
+    },
+    {
+      "name": "Asset validation application",
+      "publisher": "",
+      "releaseDate": "2019",
+      "website": "https://github.com/gggiovanny/dicas-auditorias-app",
+      "summary": "Android application to validate the existence of fixed assets with a QR code."
+    },
+    {
+      "name": "FiestasMexicanas",
+      "publisher": "",
+      "releaseDate": "2018",
+      "website": "https://github.com/gggiovanny/FiestasMexicanas",
+      "summary": "A system for quoting, order management and piñata production."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "Advanced",
+      "keywords": [
+        "Javascript",
+        "Python",
+        "PHP",
+        "C#",
+        "Kotlin",
+        "Java",
+        "C/C++",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "React (Javascript)",
+        "Codeigniter  (PHP)",
+        "Laravel (PHP)",
+        "FastAPI (Python)",
+        "Android Jetpack (Kotlin)"
+      ]
+    },
+    {
+      "name": "Soft skills",
+      "level": "",
+      "keywords": [
+        "Analytical skills",
+        "detail-oriented ",
+        "critical thinking",
+        "integrity",
+        "leadership ",
+        "research",
+        "stress management",
+        "business vision",
+        "written and oral communication"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ]
+}
