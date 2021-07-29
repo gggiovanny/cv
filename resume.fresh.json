@@ -1,0 +1,129 @@
+{
+  "name": "Giovanny González Baltazar",
+  "info": {},
+  "contact": {
+    "email": "giovanny.gonzalez.19@gmail.com",
+    "phone": "9991454542",
+    "website": "https://github.com/gggiovanny"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2021-07-29T17:47:22.680Z"
+  },
+  "location": {
+    "address": "Mérida, Yucatán"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Junior Web Developer",
+        "employer": "Génesis Aplicaciones",
+        "current": true,
+        "start": "2020-01",
+        "end": "",
+        "keywords": [],
+        "highlights": [
+          "I was in charge of developing and maintaining several solutions, the main one being the TimbraXML billing web application. It was the first time I felt I contributed things to a development team: good solutions for complex developments, turning repetitive processes into documented libraries, good flows with Git and promoting the use of modern and more readable syntax. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a development team, supported by version control tools, progression boards and effective communication channels."
+        ]
+      },
+      {
+        "position": "Technical Support Assistant",
+        "employer": "Grupo Dicas",
+        "start": "2019-01",
+        "end": "2019-12",
+        "keywords": [],
+        "highlights": [
+          "Originally tasked to be an assistant in technical support and server administration, I ended up doing all the engineering process to develop an Android application. During the time I was providing support, I learned to gather and interpret information about the experience of using software by users with little or no computer knowledge. During the development of the application I learned about modern software design architectures (MVVM and observer pattern), how to reverse engineer an existing system to integrate it to another with zero documentation, how to implement a REST API with PHP and Laravel, as well as how to secure the requests to the server through JSON Web Tokens."
+        ]
+      },
+      {
+        "position": "Systems development trainee",
+        "employer": "Marbol Industria Mueblera",
+        "start": "2018-01",
+        "end": "2016-08",
+        "url": "",
+        "keywords": [],
+        "highlights": [
+          "Member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. I was responsible for designing several modules of the ERP system and some sections of the company's database. Working there taught me to have a larger scale vision of a system and to understand the importance of knowing a problem in depth before writing even one line of code trying to solve it."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Instituto Tecnológico de Mérida",
+        "start": "2016-08",
+        "end": "2021-01",
+        "grade": "91.69",
+        "summary": "",
+        "area": "Computer Systems Engineer"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Soft skills",
+        "level": "",
+        "skills": [
+          " Analytical skills",
+          "detail-oriented ",
+          "critical thinking",
+          "integrity",
+          "leadership ",
+          "research"
+        ]
+      },
+      {
+        "skills": [
+          "stress management",
+          "business vision",
+          "written and oral communication"
+        ]
+      },
+      {
+        "skills": [
+          null
+        ]
+      },
+      {
+        "name": "Programming languages",
+        "skills": [
+          "Javascript",
+          "Python",
+          "PHP",
+          "C#",
+          "Kotlin",
+          "Java",
+          "C/C++",
+          "HTML/CSS"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "skills": [
+          "React (Javascript)",
+          "Codeigniter  (PHP)",
+          "Laravel (PHP)",
+          "FastAPI (Python)",
+          "Android Jetpack (Kotlin)"
+        ]
+      },
+      {
+        "skills": [
+          ""
+        ]
+      }
+    ]
+  },
+  "recognition": [
+    {
+      "title": "Hackathon HackSureste 2018",
+      "date": "Noviembre de 2018",
+      "from": "Team MeseBot",
+      "summary": "Awarded third place for creating a high-impact innovation project. It consists of a system to deliver restaurant orders directly from the diner to the kitchen through voice commands."
+    }
+  ]
+}
