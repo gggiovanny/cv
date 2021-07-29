@@ -103,11 +103,34 @@
       }
     ]
   },
+  "samples": [
+    {
+      "title": "Costeapp",
+      "summary": "Web application wrote in React capable of running offline that allows costing of cooking recipes.",
+      "url": "https://github.com/gggiovanny/costeos_app",
+      "date": "2020"
+    },
+    {
+      "title": "Asset validation application",
+      "summary": "Android application to validate the existence of fixed assets with a QR code.",
+      "url": "https://github.com/gggiovanny/dicas-auditorias-app",
+      "date": "2019"
+    },
+    {
+      "title": "FiestasMexicanas",
+      "summary": "A system for quoting, order management and piñata production.",
+      "url": "https://github.com/gggiovanny/FiestasMexicanas",
+      "date": "2018"
+    }
+  ],
   "recognition": [
     {
-      "title": "Hackathon HackSureste 2018",
-      "date": "2018-11",
+      "flavor": "award",
       "from": "Team MeseBot",
+      "title": "3rd place in HackSureste 2018",
+      "event": "HackSureste 2018",
+      "url": "https://www.facebook.com/hacksureste/",
+      "date": "2018-11",
       "summary": "Awarded third place for creating a high-impact innovation project. It consists of a system to deliver restaurant orders directly from the diner to the kitchen through voice commands."
     }
   ]
