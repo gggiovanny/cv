@@ -1,6 +1,11 @@
 {
   "dependencies": {
-    "jsonresume-theme-classy": "^1.0.9",
-    "jsonresume-theme-mocha-responsive": "^1.1.1"
+    "jsonresume-theme-macchiato-ibic": "^1.0.5"
+  },
+  "scripts": {
+    "build": "kissmyresume build resume/base.json --theme node_modules/jsonresume-theme-macchiato-ibic/",
+    "new": "kissmyresume new",
+    "validate": "kissmyresume validate",
+    "serve": "kissmyresume serve"
   }
 }

@@ -2,7 +2,7 @@
   "basics": {
     "name": "Giovanny González Baltazar",
     "label": "",
-    "picture": "",
+    "picture": "https://media-exp1.licdn.com/dms/image/C4E03AQEXkwOMmcLzFQ/profile-displayphoto-shrink_800_800/0/1624647274418?e=1632960000&v=beta&t=Aa5kDaP8i-hz68_SNlJSTmw7lyrAqhMtpaGpykA0MD8",
     "email": "giovanny.gonzalez.19@gmail.com",
     "phone": "9991454542",
     "website": "https://github.com/gggiovanny",
@@ -43,12 +43,7 @@
       "website": "",
       "startDate": "2019-06-17",
       "endDate": "2019-12-20",
-      "summary": "Originally tasked to be an assistant in technical support and server administration, I ended up doing all the engineering process to develop an Android application. During the time I was providing support, I learned to gather and interpret information about the experience of using software by users with little or no computer knowledge. During the development of the application I learned about modern software design architectures (MVVM and observer pattern), how to reverse engineer an existing system to integrate it to another with zero documentation, how to implement a REST API with PHP and Laravel, as well as how to secure the requests to the server through JSON Web Tokens.",
-      "highlights": [
-        "",
-        "",
-        ""
-      ]
+      "summary": "Originally tasked to be an assistant in technical support and server administration, I ended up doing all the engineering process to develop an Android application. During the time I was providing support, I learned to gather and interpret information about the experience of using software by users with little or no computer knowledge. During the development of the application I learned about modern software design architectures (MVVM and observer pattern), how to reverse engineer an existing system to integrate it to another with zero documentation, how to implement a REST API with PHP and Laravel, as well as how to secure the requests to the server through JSON Web Tokens."
     },
     {
       "company": "Systems development trainee",
@@ -56,12 +51,7 @@
       "website": "",
       "startDate": "2018-06-04",
       "endDate": "2021-08-10",
-      "summary": "Member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. I was responsible for designing several modules of the ERP system and some sections of the company's database. Working there taught me to have a larger scale vision of a system and to understand the importance of knowing a problem in depth before writing even one line of code trying to solve it.",
-      "highlights": [
-        "",
-        "",
-        ""
-      ]
+      "summary": "Member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. I was responsible for designing several modules of the ERP system and some sections of the company's database. Working there taught me to have a larger scale vision of a system and to understand the importance of knowing a problem in depth before writing even one line of code trying to solve it."
     }
   ],
   "volunteer": [
@@ -70,12 +60,7 @@
       "position": "Jefe de Tropa",
       "website": "https://scouts.org.mx/",
       "startDate": "2019-03-16",
-      "summary": "",
-      "highlights": [
-        "",
-        "",
-        ""
-      ]
+      "summary": ""
     }
   ],
   "education": [
@@ -85,12 +70,7 @@
       "studyType": "Engineer",
       "startDate": "2016-08-15",
       "endDate": "2020-12-11",
-      "gpa": "91.69",
-      "courses": [
-        "",
-        "",
-        ""
-      ]
+      "gpa": "91.69"
     }
   ],
   "awards": [
