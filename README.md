@@ -38,7 +38,7 @@ Or create or publish an `index.html` in the `/docs` directory for making it
 available through [Github Pages](https://pages.github.com/).
 
 ```
-npm publish
+npm run publish
 ```
 
 ### Prerequisites
@@ -65,6 +65,13 @@ the following command:
 ```
 kissmyresume new <your-resume-name>
 ```
+
+## Publish in Github Pages
+If you run `npm run publish`, a `/docs` folder will be created with an
+`index.html` with your CV. Just configure your repo following [this
+guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
+to point to your `docs` folders. And that's it! Now you have your new and shiny
+resume available in `https://<your-github-username>.github.io/<your-cv-repo>/`.
 
 ## Find more themes
 You can use any of the dozens of [compatible JSON Resume
