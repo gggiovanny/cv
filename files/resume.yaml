@@ -30,7 +30,7 @@
       endDate: "2021-07-16"
       summary: "I was in charge of developing and maintaining several solutions, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels."
       highlights: 
-        - "Deliver solutions for complex developments"
+        - "Deliver solutions web (PHP/CodeIgniter/JQuery) solutions for complex developments"
         - "Turn core processes into documented libraries with modern and readable syntax"
         - "Make flows with Git to avoid crashes between teammate's changes"
     - 
@@ -83,19 +83,19 @@
       publisher: "Side project"
       releaseDate: "2020"
       website: "https://github.com/gggiovanny/costeos_app"
-      summary: "An offline-first Web application wrote with React/RXDB/react-hook-form/Bulma for costing estimations of cooking recipes."
+      summary: "An offline-first Web application (React, RXDB, react-hook-form, Bulma) for costing estimations of cooking recipes."
     - 
       name: "Asset validation application"
       publisher: "Grupo Dicas"
       releaseDate: "2019"
       website: "https://github.com/gggiovanny/dicas-auditorias-app"
-      summary: "Android application to validate the existence of fixed assets with a QR code."
+      summary: "An android application (Kotlin, Jetpack) to validate the existence of fixed assets with a QR code."
     - 
       name: "FiestasMexicanas"
       publisher: "School project"
       releaseDate: "2018"
       website: "https://github.com/gggiovanny/FiestasMexicanas"
-      summary: "A system for quoting, order management and piñata production."
+      summary: "A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production."
   skills: 
     - 
       name: "Programming languages"
@@ -138,15 +138,3 @@
     - 
       language: "English"
       fluency: "B2"
-  interests: 
-    - 
-      name: "Play video and tabletop games"
-    - 
-      name: "Practice some Sports"
-      keywords: 
-        - "Running"
-        - "Fencing"
-    - 
-      name: "Watch anime and TV shows"
-    - 
-      name: "Read novels and manga"
