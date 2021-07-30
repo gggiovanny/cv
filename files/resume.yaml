@@ -1,0 +1,152 @@
+---
+  basics: 
+    name: "Giovanny González Baltazar"
+    label: ""
+    picture: "https://media-exp1.licdn.com/dms/image/C4E03AQEXkwOMmcLzFQ/profile-displayphoto-shrink_800_800/0/1624647274418?e=1632960000&v=beta&t=Aa5kDaP8i-hz68_SNlJSTmw7lyrAqhMtpaGpykA0MD8"
+    email: "giovanny.gonzalez.19@gmail.com"
+    phone: "9991454542"
+    website: "https://gggiovanny.github.io/cv/"
+    summary: ""
+    location: 
+      address: "125B 298, San Nicolás del Sur."
+      postalCode: "97285"
+      city: "Mérida, Yucatán."
+      countryCode: "México"
+    profiles: 
+      - 
+        network: "Linkedin"
+        username: "giovanny-gonzalez-baltazar"
+        url: "https://www.linkedin.com/in/giovanny-gonzalez-baltazar/"
+      - 
+        network: "Github"
+        username: "gggiovanny"
+        url: "https://github.com/gggiovanny"
+  work: 
+    - 
+      company: "Génesis Aplicaciones"
+      position: "Junior Web Developer"
+      website: ""
+      startDate: "2020-01-08"
+      endDate: "2021-07-16"
+      summary: "I was in charge of developing and maintaining several solutions, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels."
+      highlights: 
+        - "Deliver solutions for complex developments"
+        - "Turn core processes into documented libraries with modern and readable syntax"
+        - "Make flows with Git to avoid crashes between teammate's changes"
+    - 
+      company: "Grupo Dicas"
+      position: "Technical Support Assistant"
+      website: ""
+      startDate: "2019-06-17"
+      endDate: "2019-12-20"
+      summary: "Originally tasked to be an assistant in technical support and server administration, I ended up doing all the engineering process to develop an Android application."
+      highlights: 
+        - "Gather and interpret information about the experience of using software by users with little or no computer knowledge"
+        - "Used modern software design architectures (MVVM and observer pattern)"
+        - "Reverse engineer an existing system to integrate it to another with zero documentation"
+        - "Implemented a REST API with PHP and Laravel"
+        - "Secured the requests with JSON Web Tokens"
+    - 
+      company: "Systems development trainee"
+      position: "Marbol Industria Mueblera"
+      website: ""
+      startDate: "2018-06-04"
+      endDate: "2021-08-10"
+      summary: "Member of the development team and mentored by my chief Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there taught me to have a larger scale vision of a system and to understand the importance of knowing a problem in depth before writing even a single line of code trying to solve it."
+      highlights: 
+        - "Design modules of the internal custom ERP system with C# Windows Forms."
+        - "Create the backend for my modules using T-SQL tables and stored procedures."
+  volunteer: 
+    - 
+      organization: "Scouts de México"
+      position: "Jefe de Tropa"
+      website: "https://scouts.org.mx/"
+      startDate: "2019-03-16"
+      summary: ""
+  education: 
+    - 
+      institution: "Instituto Tecnológico de Mérida"
+      area: "Computer Systems Engineer"
+      studyType: "Engineer"
+      startDate: "2016-08-15"
+      endDate: "2020-12-11"
+      gpa: "91.69"
+  awards: 
+    - 
+      title: "HackSureste 2018"
+      date: "2018-11-23"
+      awarder: "Team MeseBot"
+      summary: "Awarded third place for creating a high-impact innovation project. It consists of a system to deliver restaurant orders directly from the diner table to the kitchen through voice commands."
+  publications: 
+    - 
+      name: "Costeapp"
+      publisher: "Side project"
+      releaseDate: "2020"
+      website: "https://github.com/gggiovanny/costeos_app"
+      summary: "An offline-first Web application wrote with React/RXDB/react-hook-form/Bulma for costing estimations of cooking recipes."
+    - 
+      name: "Asset validation application"
+      publisher: "Grupo Dicas"
+      releaseDate: "2019"
+      website: "https://github.com/gggiovanny/dicas-auditorias-app"
+      summary: "Android application to validate the existence of fixed assets with a QR code."
+    - 
+      name: "FiestasMexicanas"
+      publisher: "School project"
+      releaseDate: "2018"
+      website: "https://github.com/gggiovanny/FiestasMexicanas"
+      summary: "A system for quoting, order management and piñata production."
+  skills: 
+    - 
+      name: "Programming languages"
+      level: "Advanced"
+      keywords: 
+        - "Javascript"
+        - "Python"
+        - "PHP"
+        - "C#"
+        - "Kotlin"
+        - "Java"
+        - "C/C++"
+        - "HTML/CSS"
+    - 
+      name: "Frameworks"
+      level: ""
+      keywords: 
+        - "React (Javascript)"
+        - "Codeigniter  (PHP)"
+        - "Laravel (PHP)"
+        - "FastAPI (Python)"
+        - "Android Jetpack (Kotlin)"
+    - 
+      name: "Soft skills"
+      level: ""
+      keywords: 
+        - "Analytical skills"
+        - "detail-oriented "
+        - "critical thinking"
+        - "integrity"
+        - "leadership "
+        - "research"
+        - "stress management"
+        - "business vision"
+        - "written and oral communication"
+  languages: 
+    - 
+      language: "Spanish"
+      fluency: "Native"
+    - 
+      language: "English"
+      fluency: "B2"
+  interests: 
+    - 
+      name: "Play video and tabletop games"
+    - 
+      name: "Practice some Sports"
+      keywords: 
+        - "Running"
+        - "Fencing"
+    - 
+      name: "Watch anime and TV shows"
+    - 
+      name: "Read novels and manga"

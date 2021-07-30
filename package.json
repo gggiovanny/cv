@@ -1,11 +1,27 @@
 {
+  "name": "my-cool-cv",
+  "description": "A simple implementation of the CLI tool kissmyresume for local building my CV.",
+  "author": {
+    "name": "Giovanny González Baltazar",
+    "email": "giovanny.gonzalez.19@gmail.com",
+    "url": "https://github.com/gggiovanny/cv/"
+  },
   "dependencies": {
-    "jsonresume-theme-macchiato-ibic": "^1.0.5"
+    "jsonresume-theme-macchiato-ibic": "^1.0.5",
+    "kiss-my-resume": "^0.8.2"
+  },
+  "config": {
+    "resumefile": "resume/base.json",
+    "themepath": "node_modules/jsonresume-theme-macchiato-ibic/",
+    "buildpath": "files",
+    "publishpath": "docs"
   },
   "scripts": {
-    "build": "kissmyresume build resume/base.json --theme node_modules/jsonresume-theme-macchiato-ibic/",
+    "build": "kissmyresume build ${npm_package_config_resumefile} --theme ${npm_package_config_themepath} --out ${npm_package_config_buildpath}",
+    "publish": "kissmyresume build ${npm_package_config_resumefile} --out ${npm_package_config_publishpath} --name index --format HTML",
     "new": "kissmyresume new",
-    "validate": "kissmyresume validate",
-    "serve": "kissmyresume serve"
-  }
+    "validate": "kissmyresume validate ${npm_package_config_resumefile}",
+    "start": "kissmyresume serve ${npm_package_config_resumefile} --theme ${npm_package_config_themepath}"
+  },
+  "license": "MIT"
 }
