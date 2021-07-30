@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "kissmyresume build ${npm_package_config_resumefile} --theme ${npm_package_config_themepath} --out ${npm_package_config_buildpath}",
-    "publish": "kissmyresume build ${npm_package_config_resumefile} --out ${npm_package_config_publishpath} --name index --format HTML",
+    "publish": "kissmyresume build ${npm_package_config_resumefile} --theme ${npm_package_config_themepath} --out ${npm_package_config_publishpath} --name index --format HTML",
     "new": "kissmyresume new",
     "validate": "kissmyresume validate ${npm_package_config_resumefile}",
     "start": "kissmyresume serve ${npm_package_config_resumefile} --theme ${npm_package_config_themepath}"
