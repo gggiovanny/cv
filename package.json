@@ -12,7 +12,8 @@
     "jsonresume-theme-orbit": "^1.0.3",
     "jsonresume-theme-spartacus-prime": "^1.0.6",
     "kiss-my-resume": "^0.8.2",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "puppeteer-cli": "^1.5.1"
   },
   "config": {
     "resumefile": "resume/base.json",
@@ -20,17 +21,18 @@
     "themepdf": "macchiato-ibic",
     "themehtml": "macchiato-ibic",
     "buildpath": "files",
-    "publishpath": "docs"
+    "publishpath": "docs",
+    "pagesize": "letter"
   },
   "scripts": {
-    "build": "kissmyresume build ${npm_package_config_resumefile} --theme ${npm_package_config_themebase} --out ${npm_package_config_buildpath}",
-    "test": "kissmyresume build ${npm_package_config_resumefile} --theme ${theme} --out test/${theme}",
+    "build": "kissmyresume build $npm_package_config_resumefile --theme $npm_package_config_themebase --out $npm_package_config_buildpath",
+    "test": "kissmyresume build $npm_package_config_resumefile --theme $theme --out test/$theme",
     "publish": "run-s build publish:*",
-    "publish:html": "kissmyresume build ${npm_package_config_resumefile} --theme ${npm_package_config_themehtml} --out ${npm_package_config_publishpath} --name index --format HTML",
-    "publish:pdf": "kissmyresume build ${npm_package_config_resumefile} --theme ${npm_package_config_themepdf} --out ${npm_package_config_buildpath} --format PDF",
+    "publish:html": "kissmyresume build $npm_package_config_resumefile --theme $npm_package_config_themehtml} --out ${npm_package_config_publishpath --name index --format HTML",
+    "publish:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format $npm_package_config_pagesize print $npm_package_config_buildpath/resume.html $npm_package_config_buildpath/resume.pdf",
     "new": "kissmyresume new",
-    "validate": "kissmyresume validate ${npm_package_config_resumefile}",
-    "start": "kissmyresume serve ${npm_package_config_resumefile} --theme ${npm_package_config_themebase}"
+    "validate": "kissmyresume validate $npm_package_config_resumefile",
+    "start": "kissmyresume serve $npm_package_config_resumefile --theme $npm_package_config_themebase"
   },
   "license": "MIT"
 }
