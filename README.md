@@ -41,6 +41,12 @@ available through [Github Pages](https://pages.github.com/).
 npm run publish
 ```
 
+Or you can test a lot of themes and save each version in a folder with the same
+name as theme (inside `/test` folder):
+```
+theme=<theme-name> npm run test 
+```
+
 ### Prerequisites
 
 If the below commands doesn't work for you, try to install kissmyresume

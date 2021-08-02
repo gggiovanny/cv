@@ -1,0 +1,29 @@
+{
+  "volunteer": [
+    {
+      "organization": "Scouts de México",
+      "position": "Jefe de Tropa",
+      "website": "https://scouts.org.mx/",
+      "startDate": "2019-03-16",
+      "summary": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Play video and tabletop games"
+    },
+    {
+      "name": "Practice some Sports",
+      "keywords": [
+        "Running",
+        "Fencing"
+      ]
+    },
+    {
+      "name": "Watch anime and TV shows"
+    },
+    {
+      "name": "Read novels and manga"
+    }
+  ]
+}

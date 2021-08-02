@@ -60,21 +60,12 @@
       "position": "Marbol Industria Mueblera",
       "website": "",
       "startDate": "2018-06-04",
-      "endDate": "2021-08-10",
-      "summary": "Member of the development team and mentored by my chief Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there taught me to have a larger scale vision of a system and to understand the importance of knowing a problem in depth before writing even a single line of code trying to solve it.",
+      "endDate": "2018-08-10",
+      "summary": "Member of the development team and mentored by my chief Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there I learn to understand the importance of knowing the problems in depth before writing even a single line of code.",
       "highlights": [
         "Design modules of the internal custom ERP system with C# Windows Forms.",
         "Create the backend for my modules using T-SQL tables and stored procedures."
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Scouts de México",
-      "position": "Jefe de Tropa",
-      "website": "https://scouts.org.mx/",
-      "startDate": "2019-03-16",
-      "summary": ""
     }
   ],
   "education": [
@@ -149,14 +140,14 @@
       "level": "",
       "keywords": [
         "Analytical skills",
-        "detail-oriented ",
-        "critical thinking",
-        "integrity",
-        "leadership ",
-        "research",
-        "stress management",
-        "business vision",
-        "written and oral communication"
+        "Detail-oriented ",
+        "Critical thinking",
+        "Integrity",
+        "Leadership ",
+        "Research",
+        "Stress management",
+        "Business vision",
+        "Written and oral communication"
       ]
     }
   ],
