@@ -62,7 +62,7 @@
         "Reverse engineer an existing system to integrate it to another with zero documentation",
         "Implemented a REST API with PHP and Laravel",
         "Secured the requests with JSON Web Tokens"
-      ]
+      ]<
     },
     {
       "company": "Systems development trainee",
@@ -70,7 +70,7 @@
       "website": "http://marbol.com.mx/quienes-somos",
       "startDate": "2018-06-04",
       "endDate": "2018-08-10",
-      "summary": "Temporal member of the development team and mentored by Felix Amaya Valencia, from whom he quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there the he learn to understand the importance of knowing the problems in depth before writing even a single line of code.",
+      "summary": "Temporal member of the development team and mentored by Felix Amaya Valencia, from whom he quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there, he learned to understand the importance of knowing the problems in depth before writing even a single line of code.",
       "highlights": [
         "Design modules of the internal custom ERP system with C# Windows Forms.",
         "Create the backend for my modules using T-SQL tables and stored procedures."
