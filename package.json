@@ -28,7 +28,7 @@
     "build": "kissmyresume build $npm_package_config_resumefile --theme $npm_package_config_themebase --out $npm_package_config_buildpath",
     "test": "kissmyresume build $npm_package_config_resumefile --theme $theme --out test/$theme",
     "publish": "run-s build publish:*",
-    "publish:html": "kissmyresume build $npm_package_config_resumefile --theme $npm_package_config_themehtml} --out ${npm_package_config_publishpath --name index --format HTML",
+    "publish:html": "kissmyresume build $npm_package_config_resumefile --theme $npm_package_config_themehtml --out $npm_package_config_publishpath --name index --format HTML",
     "publish:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format $npm_package_config_pagesize print $npm_package_config_buildpath/resume.html $npm_package_config_buildpath/resume.pdf",
     "new": "kissmyresume new",
     "validate": "kissmyresume validate $npm_package_config_resumefile",
