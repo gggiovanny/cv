@@ -2,7 +2,7 @@
   "basics": {
     "name": "Giovanny González Baltazar",
     "label": "",
-    "picture": "https://media-exp1.licdn.com/dms/image/C4E03AQEXkwOMmcLzFQ/profile-displayphoto-shrink_800_800/0/1624647274418?e=1632960000&v=beta&t=Aa5kDaP8i-hz68_SNlJSTmw7lyrAqhMtpaGpykA0MD8",
+    "picture": "https://www.gravatar.com/avatar/7fa4088bfe63bc840f8815907b999c0c",
     "email": "giovanny.gonzalez.19@gmail.com",
     "phone": "9991454542",
     "website": "https://gggiovanny.github.io/cv/",
@@ -28,12 +28,28 @@
   },
   "work": [
     {
+      "company": "Boy Scouts of America",
+      "position": "React Developer",
+      "website": "https://www.scouting.org/",
+      "startDate": "2021-08-02",
+      "endDate": "",
+      "summary": "Currently, he works as frontend React developer using agile methodologies with CI/CD in the multidisciplinary team in charge of the Event Registration System for Boy Scouts of America.",
+      "highlights": [
+        "Convert stories in to new features using React/Typescript/Redux/RxJS/Styled Components",
+        "Communicate with users when it is needed in order to solve specific issues",
+        "Always keep in sync with the design and backend teams",
+        "Keep the codebase maintainable be keeping it modular and self-documented",
+        "Write tests using React Testing Library and Jest",
+        "Document processes and 'tribal knowledge' in Confluence"
+      ]
+    },
+    {
       "company": "The Ksquare Group",
       "position": "Fullstack Developer",
       "website": "https://www.theksquaregroup.com/",
       "startDate": "2021-07-19",
       "endDate": "",
-      "summary": "New to the Javascript UI department, highlighted during his interview, he is polishing his skills with mentoring from his teammates. He is a promising and very capable developer for his young age, with solid experience. He is very excited to start working on a new project."
+      "summary": "He works as a nearshore developer, currently for The Boy Scouts of America. His main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
     },
     {
       "company": "Génesis Aplicaciones",
@@ -62,7 +78,7 @@
         "Reverse engineer an existing system to integrate it to another with zero documentation",
         "Implemented a REST API with PHP and Laravel",
         "Secured the requests with JSON Web Tokens"
-      ]<
+      ]
     },
     {
       "company": "Systems development trainee",
