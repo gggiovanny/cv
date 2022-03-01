@@ -230,10 +230,7 @@ ul.two-column li {
   clear: both;
 }
 
-.profile-pic {
-  margin-top: -5px;
-  margin-right: 18px;
-}
+
 
 .profile-pic img {
   height: 52px;
@@ -328,6 +325,8 @@ ul.two-column li {
 /* Components */
 .info-tag-container {
   margin-bottom: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .info-tag-container .fa {
@@ -398,18 +397,29 @@ ul.two-column li {
   background: ghostwhite;
   border-radius: 5px;
 }
+
+.name-and-pic-row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-and-pic-row h1 {
+  font-size: 38px;
+
+}
 </style>
 </head>
 
 <body>
   <main id="resume" class="page">
     <header class="resume-header clearfix">
-        <div class="profile-header pull-left">
-            <h1>Giovanny González Baltazar</h1>
-            <h2></h2>
-        </div>
-        <div class="profile-pic pull-right">
-            <img src="https://www.gravatar.com/avatar/7fa4088bfe63bc840f8815907b999c0c" alt="profile-pic">
+        <div class="name-and-pic-row">
+              <h1>Giovanny González Baltazar</h1>
+          <div class="profile-pic">
+              <img src="https://www.gravatar.com/avatar/7fa4088bfe63bc840f8815907b999c0c" alt="profile-pic">
+          </div>
         </div>
     </header>
     <div class="resume-content">
