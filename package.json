@@ -15,24 +15,15 @@
     "npm-run-all": "^4.1.5",
     "puppeteer-cli": "^1.5.1"
   },
-  "config": {
-    "resumefile": "resume/base.json",
-    "themebase": "macchiato-ibic",
-    "themepdf": "macchiato-ibic",
-    "themehtml": "macchiato-ibic",
-    "buildpath": "files",
-    "publishpath": "docs",
-    "pagesize": "letter"
-  },
   "scripts": {
-    "build": "kissmyresume build $npm_package_config_resumefile --theme $npm_package_config_themebase --out $npm_package_config_buildpath",
-    "test": "kissmyresume build $npm_package_config_resumefile --theme $theme --out test/$theme",
+    "build": "kissmyresume build resume/base.json --theme macchiato-ibic --out build",
+    "test": "kissmyresume build resume/base.json --theme $theme --out test/$theme",
     "publish": "run-s build publish:*",
-    "publish:html": "kissmyresume build $npm_package_config_resumefile --theme $npm_package_config_themehtml --out $npm_package_config_publishpath --name index --format HTML",
-    "publish:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format $npm_package_config_pagesize print $npm_package_config_buildpath/resume.html $npm_package_config_buildpath/resume.pdf",
+    "publish:html": "kissmyresume build resume/base.json --theme macchiato-ibic --out publish --name index --format HTML",
+    "publish:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format letter print build/resume.html build/resume.pdf",
     "new": "kissmyresume new",
-    "validate": "kissmyresume validate $npm_package_config_resumefile",
-    "start": "kissmyresume serve $npm_package_config_resumefile --theme $npm_package_config_themebase"
+    "validate": "kissmyresume validate resume/base.json",
+    "start": "kissmyresume serve resume/base.json --theme macchiato-ibic"
   },
   "license": "MIT"
 }
