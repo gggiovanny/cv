@@ -1,4 +1,6 @@
 {
   "cSpell.enabled": true,
-  "cSpell.language": "en,en-US,es,es-ES"
+  "cSpell.language": "en,en-US,es",
+  "languageTool.enabled": true,
+  "languageTool.language": "en"
 }

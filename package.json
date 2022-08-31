@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "jsonresume-theme-eloquent": "^4.1.0",
+    "jsonresume-theme-macchiato-gio": "^1.0.7",
     "jsonresume-theme-macchiato-ibic": "^1.0.5",
     "jsonresume-theme-orbit": "^1.0.3",
     "jsonresume-theme-spartacus-prime": "^1.0.6",
@@ -16,14 +17,14 @@
     "puppeteer-cli": "^1.5.1"
   },
   "scripts": {
-    "build": "kissmyresume build resume/base.json --theme macchiato-ibic --out build",
+    "build": "kissmyresume build resume/base.json --theme macchiato-gio --out build",
     "test": "kissmyresume build resume/base.json --theme $theme --out test/$theme",
     "publish": "run-s build publish:*",
-    "publish:html": "kissmyresume build resume/base.json --theme macchiato-ibic --out publish --name index --format HTML",
-    "publish:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format letter print build/resume.html build/resume.pdf",
+    "publish:html": "kissmyresume build resume/base.json --theme macchiato-gio --out publish --name index --format HTML",
+    "publish:pdf": "puppeteer --margin-top 30 --margin-right 0 --margin-bottom 30 --margin-left 0 --format letter print build/resume.html build/resume.pdf",
     "new": "kissmyresume new",
     "validate": "kissmyresume validate resume/base.json",
-    "start": "kissmyresume serve resume/base.json --theme macchiato-ibic"
+    "start": "kissmyresume serve resume/base.json --theme macchiato-gio"
   },
   "license": "MIT"
 }

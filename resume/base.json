@@ -6,7 +6,7 @@
     "email": "giovanny.gonzalez.19@gmail.com",
     "phone": "9991454542",
     "website": "https://gggiovanny.github.io/cv/",
-    "summary": "Bachelor in Computer Systems Engineer from the Instituto Tecnológico de Mérida, with almost 3 years of professional experience at the same time of studying. Giovanny has worked in small, but highly coordinated teams developing massive web products as well as custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. He has proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team where he has worked.",
+    "summary": "Bachelor in Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. Giovanny has worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. He has proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team where he has worked.",
     "location": {
       "address": "125B 298, San Nicolás del Sur.",
       "postalCode": "97285",
@@ -28,18 +28,35 @@
   },
   "work": [
     {
+      "company": "Grupo Bursatil Mexicano, Casa de Bolsa",
+      "position": "Mid Front End Engineer",
+      "website": "https://gbm.com/",
+      "startDate": "2022-05-23",
+      "endDate": "2022-08-31",
+      "summary": "He worked as the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline",
+      "highlights": [
+        "Convert user requirements on new features using React/Redux/Sagas/SASS",
+        "Write unit and integration tests using React Testing Library and Jest",
+        "Propose and implement improvements for the components and tests codebase by using state-of-the-art development patterns",
+        "Being an ambassador of good development practices and flows for other frontend teammates",
+        "Implement a complex modular permission system",
+        "Greatly increase the project test coverage",
+        "Migrate React and testing libraries versions"
+      ]
+    },
+    {
       "company": "Boy Scouts of America",
       "position": "React Developer",
       "website": "https://www.scouting.org/",
       "startDate": "2021-08-02",
-      "endDate": "",
-      "summary": "Currently, he works as frontend React developer using agile methodologies with CI/CD in the multidisciplinary team in charge of the Event Registration System for Boy Scouts of America.",
+      "endDate": "2022-05-20",
+      "summary": "He worked as frontend React developer using agile methodologies with CI/CD in the multidisciplinary team in charge of the Event Registration System for Boy Scouts of America.",
       "highlights": [
         "Convert stories in to new features using React/Typescript/Redux/RxJS/Styled Components",
         "Communicate with users when it is needed in order to solve specific issues",
         "Always keep in sync with the design and backend teams",
         "Keep the codebase maintainable be keeping it modular and self-documented",
-        "Write tests using React Testing Library and Jest",
+        "Write integration tests using Cypress",
         "Document processes and 'tribal knowledge' in Confluence"
       ]
     },
@@ -48,8 +65,8 @@
       "position": "Fullstack Developer",
       "website": "https://www.theksquaregroup.com/",
       "startDate": "2021-07-19",
-      "endDate": "",
-      "summary": "He works as a nearshore developer, currently for The Boy Scouts of America. His main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
+      "endDate": "2022-05-20",
+      "summary": "He worked as a nearshore developer for The Boy Scouts of America. His main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
     },
     {
       "company": "Génesis Aplicaciones",
@@ -117,7 +134,7 @@
       "position": "Jefe de Tropa (YUC1990357)",
       "website": "https://scouts.org.mx/",
       "startDate": "2019-03-16",
-      "summary": ""
+      "summary": "2022-01-01"
     }
   ],
   "publications": [
@@ -168,6 +185,15 @@
         "Laravel (PHP)",
         "FastAPI (Python)",
         "Android Jetpack (Kotlin)"
+      ]
+    },
+    {
+      "name": "Other skills",
+      "level": "",
+      "keywords": [
+        "Git, GitHub and Bitbucket",
+        "Used to agile methodologies",
+        "VS Code ninja"
       ]
     },
     {
