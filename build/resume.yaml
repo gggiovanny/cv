@@ -6,7 +6,7 @@
     email: "giovanny.gonzalez.19@gmail.com"
     phone: "9991454542"
     website: "https://gggiovanny.github.io/cv/"
-    summary: "Bachelor in Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. Giovanny has worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. He has proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team where he has worked."
+    summary: "Bachelor in Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. I've worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. I have proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team I've worked on."
     location: 
       address: "125B 298, San Nicolás del Sur."
       postalCode: "97285"
@@ -28,7 +28,7 @@
       website: "https://gbm.com/"
       startDate: "2022-05-23"
       endDate: "2022-08-31"
-      summary: "He worked as the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline"
+      summary: "I was the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline."
       highlights: 
         - "Convert user requirements on new features using React/Redux/Sagas/SASS"
         - "Write unit and integration tests using React Testing Library and Jest"
@@ -43,7 +43,7 @@
       website: "https://www.scouting.org/"
       startDate: "2021-08-02"
       endDate: "2022-05-20"
-      summary: "He worked as frontend React developer using agile methodologies with CI/CD in the multidisciplinary team in charge of the Event Registration System for Boy Scouts of America."
+      summary: "I was frontend React developer on the international English speaker multidisciplinary team in charge of the Event Registration System for Boy Scouts of America using agile methodologies."
       highlights: 
         - "Convert stories in to new features using React/Typescript/Redux/RxJS/Styled Components"
         - "Communicate with users when it is needed in order to solve specific issues"
@@ -57,14 +57,14 @@
       website: "https://www.theksquaregroup.com/"
       startDate: "2021-07-19"
       endDate: "2022-05-20"
-      summary: "He worked as a nearshore developer for The Boy Scouts of America. His main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
+      summary: "I worked as a USA nearshore developer for The Boy Scouts of America. My main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
     - 
       company: "Génesis Aplicaciones"
       position: "Junior Web Developer"
       website: "https://ssl.timbraxml.com/"
       startDate: "2020-01-08"
       endDate: "2021-07-16"
-      summary: "He was in charge of developing and maintaining some massive web products, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, he learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels."
+      summary: "I was in charge of developing and maintaining some massive web products, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels."
       highlights: 
         - "Migrate, develop and maintain the TimbraXML billing web application"
         - "Deliver custom web-based solutions (PHP/CodeIgniter/JQuery) for national level franchises"
@@ -76,7 +76,7 @@
       website: "http://www.grupodicas.com.mx/"
       startDate: "2019-06-17"
       endDate: "2019-12-20"
-      summary: "Originally tasked to be an assistant in technical support and server administration, he ended up doing all the engineering process to develop an Android application."
+      summary: "Originally tasked to be an assistant in technical support and server administration, I ended up doing all the engineering process to develop an Android application."
       highlights: 
         - "Gather and interpret information about the experience of using software by users with little or no computer knowledge"
         - "Used modern software design architectures (MVVM and observer pattern)"
@@ -89,7 +89,7 @@
       website: "http://marbol.com.mx/quienes-somos"
       startDate: "2018-06-04"
       endDate: "2018-08-10"
-      summary: "Temporal member of the development team and mentored by Felix Amaya Valencia, from whom he quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there, he learned to understand the importance of knowing the problems in depth before writing even a single line of code."
+      summary: "Temporal member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there, I learned to understand the importance of knowing the problems in depth before writing even a single line of code."
       highlights: 
         - "Design modules of the internal custom ERP system with C# Windows Forms."
         - "Create the backend for my modules using T-SQL tables and stored procedures."
@@ -106,7 +106,7 @@
       title: "HackSureste 2018"
       date: "2018-11-23"
       awarder: "Team MeseBot"
-      summary: "Awarded third place for creating a high-impact innovation project. It consists of a system to deliver restaurant orders directly from the diner table to the kitchen through voice commands."
+      summary: "Thanks to Giovanny's leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. He received recognition, a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship that includes product registration and a registered company at zero cost."
   volunteer: 
     - 
       organization: "Scouts de México"
@@ -135,34 +135,62 @@
       summary: "A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production."
   skills: 
     - 
-      name: "Programming languages"
-      level: ""
+      name: "Frontend web development"
+      level: "Expert"
       keywords: 
         - "Javascript"
-        - "SQL"
+        - "Typescript"
+        - "React"
+        - "Redux"
+        - "Sagas"
+        - "React Query"
+        - "RxJS"
+        - "CSS in JS"
+        - "SASS"
+        - "HTML/CSS"
+        - "Jest"
+        - "Testing Library"
+        - "Cypress"
+    - 
+      name: "Backend web development"
+      level: "Advanced"
+      keywords: 
         - "Python"
-        - "PHP"
+        - "FastAPI"
+        - "NodeJS"
+        - "Prisma"
+        - "PHP (Laravel & Codeigniter)"
+        - "T-SQL"
+        - "MySQL"
+        - "Stored procedures"
+        - "ORM"
+        - "REST"
+        - "JWT"
+        - "Auth0"
+    - 
+      name: "Windows Desktop"
+      level: "Intermediate"
+      keywords: 
         - "C#"
+        - "SQL Server (T-SQL)"
+        - "Stored procedures"
+        - "C/C++"
+    - 
+      name: "Mobile development"
+      level: "Intermediate"
+      keywords: 
         - "Kotlin"
         - "Java"
-        - "C/C++"
-        - "HTML/CSS"
+        - "Android Jetpack"
     - 
-      name: "Frameworks"
+      name: "Other tech skills"
       level: ""
       keywords: 
-        - "React (Javascript)"
-        - "Codeigniter  (PHP)"
-        - "Laravel (PHP)"
-        - "FastAPI (Python)"
-        - "Android Jetpack (Kotlin)"
-    - 
-      name: "Other skills"
-      level: ""
-      keywords: 
-        - "Git, GitHub and Bitbucket"
-        - "Used to agile methodologies"
+        - "Git"
+        - "Amazon Web Services"
+        - "Agile methodologies"
         - "VS Code ninja"
+        - "Linux command line"
     - 
       name: "Soft skills"
       level: ""
