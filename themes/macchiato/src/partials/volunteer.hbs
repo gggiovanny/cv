@@ -4,7 +4,7 @@
 
     {{#each resume.volunteer}}
     <section class="item">
-        {{> section-header name=this.organization showWebsite=true}}
+        {{> section-header name=this.organization website=this.url showWebsite=true}}
         {{#if position}}
         <h5>{{position}}</h5>
         {{/if}}

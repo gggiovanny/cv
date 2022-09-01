@@ -3,10 +3,10 @@
     "name": "Giovanny González Baltazar",
     "label": "",
     "picture": "https://www.gravatar.com/avatar/7fa4088bfe63bc840f8815907b999c0c",
-    "email": "",
-    "phone": "",
+    "email": "giovanny.gonzalez.19@gmail.com",
+    "phone": "+52 999 145 4542",
     "website": "https://gggiovanny.github.io/cv/",
-    "summary": "Bachelor in Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. I've worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. I have proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team I've worked on.",
+    "summary": "Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. I've worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. I have proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team I've worked on. I enjoy following the best practices to write quality code.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,11 +33,11 @@
       "website": "https://gbm.com/",
       "startDate": "2022-05-23",
       "endDate": "2022-08-31",
-      "summary": "I was the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline.",
+      "summary": "Worked as the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline.",
       "highlights": [
         "Convert user requirements on new features using React/Redux/Sagas/SASS",
         "Write unit and integration tests using React Testing Library and Jest",
-        "Propose and implement improvements for the components and tests codebase by using state-of-the-art development patterns",
+        "Propose and implement improvements for component and test codebase by using state-of-the-art development patterns",
         "Being an ambassador of good development practices and flows for other frontend teammates",
         "Implement a complex modular permission system",
         "Greatly increase the project test coverage",
@@ -50,7 +50,7 @@
       "website": "https://www.scouting.org/",
       "startDate": "2021-08-02",
       "endDate": "2022-05-20",
-      "summary": "I was frontend React developer on the international English speaker multidisciplinary team in charge of the Event Registration System for Boy Scouts of America using agile methodologies.",
+      "summary": "Worked as frontend React developer on the international English speaker multidisciplinary team in charge of the Event Registration System for Boy Scouts of America using agile methodologies.",
       "highlights": [
         "Convert stories in to new features using React/Typescript/Redux/RxJS/Styled Components",
         "Communicate with users when it is needed in order to solve specific issues",
@@ -66,7 +66,7 @@
       "website": "https://www.theksquaregroup.com/",
       "startDate": "2021-07-19",
       "endDate": "2022-05-20",
-      "summary": "I worked as a USA nearshore developer for The Boy Scouts of America. My main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
+      "summary": "Worked as a USA nearshore developer for The Boy Scouts of America. My main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
     },
     {
       "company": "Génesis Aplicaciones",
@@ -74,7 +74,7 @@
       "website": "https://ssl.timbraxml.com/",
       "startDate": "2020-01-08",
       "endDate": "2021-07-16",
-      "summary": "I was in charge of developing and maintaining some massive web products, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels.",
+      "summary": "In charge of developing and maintaining some massive web products, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels.",
       "highlights": [
         "Migrate, develop and maintain the TimbraXML billing web application",
         "Deliver custom web-based solutions (PHP/CodeIgniter/JQuery) for national level franchises",
@@ -100,7 +100,7 @@
     {
       "company": "Systems development trainee",
       "position": "Marbol Industria Mueblera",
-      "website": "http://marbol.com.mx/quienes-somos",
+      "website": "https://marbol.com.mx/quienes-somos",
       "startDate": "2018-06-04",
       "endDate": "2018-08-10",
       "summary": "Temporal member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there, I learned to understand the importance of knowing the problems in depth before writing even a single line of code.",
@@ -113,11 +113,15 @@
   "education": [
     {
       "institution": "Instituto Tecnológico de Mérida",
-      "area": "Computer Systems Engineer",
+      "location": "Yucatán, México",
+      "url": "https://www.itmerida.mx/",
+      "area": "Computer Systems",
       "studyType": "Engineer",
+      "specialization": "Artificial Intelligence",
       "startDate": "2016-08-15",
       "endDate": "2020-12-11",
-      "gpa": "91.69"
+      "score": "91.69",
+      "courses": []
     }
   ],
   "awards": [
@@ -125,39 +129,57 @@
       "title": "HackSureste 2018",
       "date": "2018-11-23",
       "awarder": "Team MeseBot",
-      "summary": "Thanks to Giovanny's leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. He received recognition, a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship that includes product registration and a registered company at zero cost."
+      "summary": "Thanks to Giovanny's leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. The team won a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship by Instituto Yucateco de Emprendedores (IYEM) that included product registration and a registered company."
     }
   ],
   "volunteer": [
     {
       "organization": "Scouts de México",
       "position": "Jefe de Tropa (YUC1990357)",
-      "website": "https://scouts.org.mx/",
+      "url": "https://scouts.org.mx/",
       "startDate": "2019-03-16",
-      "summary": "2022-01-01"
+      "endDate": "2022-01-01",
+      "summary": "",
+      "highlights": []
     }
   ],
-  "publications": [
+  "publications": [],
+  "projects": [
     {
       "name": "Costeapp",
-      "publisher": "Side project",
-      "releaseDate": "2020",
-      "website": "https://github.com/gggiovanny/costeos_app",
-      "summary": "An offline-first Web application (React, RXDB, react-hook-form, Bulma) for costing estimations of cooking recipes."
+      "description": "An offline-first Web application (React, RXDB, react-hook-form, Bulma) for costing estimations of cooking recipes.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2020",
+      "endDate": "",
+      "url": "https://github.com/gggiovanny/costeos_app",
+      "roles": [],
+      "entity": "",
+      "type": "Side project"
     },
     {
       "name": "Asset validation application",
-      "publisher": "Grupo Dicas",
-      "releaseDate": "2019",
-      "website": "https://github.com/gggiovanny/dicas-auditorias-app",
-      "summary": "An android application (Kotlin, Jetpack) to validate the existence of fixed assets with a QR code."
+      "description": "An android application (Kotlin, Jetpack) to validate the existence of fixed assets with a QR code.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019",
+      "endDate": "2019",
+      "url": "https://github.com/gggiovanny/dicas-auditorias-app",
+      "roles": [],
+      "entity": "Grupo Dicas",
+      "type": "Company project"
     },
     {
       "name": "FiestasMexicanas",
-      "publisher": "School project",
-      "releaseDate": "2018",
-      "website": "https://github.com/gggiovanny/FiestasMexicanas",
-      "summary": "A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production."
+      "description": "A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2018",
+      "endDate": "2018",
+      "url": "https://github.com/gggiovanny/FiestasMexicanas",
+      "roles": [],
+      "entity": "",
+      "type": "School project"
     }
   ],
   "skills": [
@@ -219,14 +241,24 @@
       ]
     },
     {
-      "name": "Other tech skills",
-      "level": "",
+      "name": "Tech skills",
+      "level": "Ninja",
       "keywords": [
         "Git",
-        "Amazon Web Services",
+        "VS Code",
+        "Linux command line",
         "Agile methodologies",
-        "VS Code ninja",
-        "Linux command line"
+        "Markdown",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Learning",
+      "level": "",
+      "keywords": [
+        "Amazon Web Services",
+        "Remix framework",
+        "Microservices"
       ]
     },
     {
@@ -252,7 +284,7 @@
     },
     {
       "language": "English",
-      "fluency": "B2"
+      "fluency": "B2, Conversational"
     }
   ]
 }

@@ -194,10 +194,6 @@ ul.two-column li {
   padding-left: 0;
 }
 
-@page {
-  size: letter portrait;
-}
-
 .container {
   padding-top: 20px;
 }
@@ -281,6 +277,17 @@ ul.two-column li {
   margin-bottom: 0;
 }
 
+@page {
+  size: letter portrait;
+  margin: 1cm;
+  /* top | right | bottom | left */
+  margin: 36px 18px 36px O;
+}
+
+@page :first {
+  margin-top: 0px;
+}
+
 @media print {
   body {
     margin: 0;
@@ -290,6 +297,7 @@ ul.two-column li {
     width: 100%;
     height: 100%;
     margin: 0;
+    /* top | horizontal | bottom */
     padding: 36px 0 30px;
     box-shadow: none;
   }
@@ -306,6 +314,12 @@ ul.two-column li {
   .fa-external-link {
     display: none;
   }
+
+  .pagebreak {
+    page-break-before: always;
+    margin-top: 36px;
+  }
+
 }
 
 /* Components */
@@ -393,4 +407,19 @@ ul.two-column li {
 
 .name-and-pic-row h1 {
   font-size: 38px;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.section-header h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.section-header h5 {
+  margin-left: auto;
 }

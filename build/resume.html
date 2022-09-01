@@ -202,10 +202,6 @@ ul.two-column li {
   padding-left: 0;
 }
 
-@page {
-  size: letter portrait;
-}
-
 .container {
   padding-top: 20px;
 }
@@ -289,6 +285,17 @@ ul.two-column li {
   margin-bottom: 0;
 }
 
+@page {
+  size: letter portrait;
+  margin: 1cm;
+  /* top | right | bottom | left */
+  margin: 36px 18px 36px O;
+}
+
+@page :first {
+  margin-top: 0px;
+}
+
 @media print {
   body {
     margin: 0;
@@ -298,6 +305,7 @@ ul.two-column li {
     width: 100%;
     height: 100%;
     margin: 0;
+    /* top | horizontal | bottom */
     padding: 36px 0 30px;
     box-shadow: none;
   }
@@ -314,6 +322,12 @@ ul.two-column li {
   .fa-external-link {
     display: none;
   }
+
+  .pagebreak {
+    page-break-before: always;
+    margin-top: 36px;
+  }
+
 }
 
 /* Components */
@@ -401,6 +415,21 @@ ul.two-column li {
 
 .name-and-pic-row h1 {
   font-size: 38px;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.section-header h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.section-header h5 {
+  margin-left: auto;
 }</style>
 </head>
 
@@ -427,7 +456,7 @@ ul.two-column li {
                 <div class="info-tag-container">
                     <i class="fa fa-map-marker"></i>
                 
-                        <h6 class="info-text">125B 298, San Nicolás del Sur. Mérida, Yucatán.  97285 México</h6>
+                        <h6 class="info-text"> Mérida, Yucatán.   México</h6>
                 </div>
         
         
@@ -444,7 +473,7 @@ ul.two-column li {
                 <div class="info-tag-container">
                     <i class="fa fa-mobile"></i>
                 
-                        <h6 class="info-text">9991454542</h6>
+                        <h6 class="info-text">+52 999 145 4542</h6>
                 </div>
         
                 <div class="info-tag-container">
@@ -483,6 +512,7 @@ ul.two-column li {
                                 <div class="keyline"></div>
                             </div>                    <h4 class="bold capitalize">Expert</h4>
                             <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">HTML/CSS</h6>
                                     <h6 class="main-skill skill">Javascript</h6>
                                     <h6 class="main-skill skill">Typescript</h6>
                                     <h6 class="main-skill skill">React</h6>
@@ -492,10 +522,10 @@ ul.two-column li {
                                     <h6 class="main-skill skill">RxJS</h6>
                                     <h6 class="main-skill skill">CSS in JS</h6>
                                     <h6 class="main-skill skill">SASS</h6>
-                                    <h6 class="main-skill skill">HTML/CSS</h6>
                                     <h6 class="main-skill skill">Jest</h6>
                                     <h6 class="main-skill skill">Testing Library</h6>
                                     <h6 class="main-skill skill">Cypress</h6>
+                                    <h6 class="main-skill skill">JQuery</h6>
                             </div>
                     </section>
                     <section class="container">
@@ -543,14 +573,26 @@ ul.two-column li {
                     </section>
                     <section class="container">
                             <div class="title">
-                                <h3>Other tech skills</h3>
+                                <h3>Tech skills</h3>
+                                <div class="keyline"></div>
+                            </div>                    <h4 class="bold capitalize">Ninja</h4>
+                            <div class="minimal flex-container">
+                                    <h6 class="main-skill skill">Git</h6>
+                                    <h6 class="main-skill skill">VS Code</h6>
+                                    <h6 class="main-skill skill">Linux command line</h6>
+                                    <h6 class="main-skill skill">Agile methodologies</h6>
+                                    <h6 class="main-skill skill">Markdown</h6>
+                                    <h6 class="main-skill skill">LaTeX</h6>
+                            </div>
+                    </section>
+                    <section class="container">
+                            <div class="title">
+                                <h3>Learning</h3>
                                 <div class="keyline"></div>
                             </div>                    <div class="minimal flex-container">
-                                    <h6 class="main-skill skill">Git</h6>
                                     <h6 class="main-skill skill">Amazon Web Services</h6>
-                                    <h6 class="main-skill skill">Agile methodologies</h6>
-                                    <h6 class="main-skill skill">VS Code ninja</h6>
-                                    <h6 class="main-skill skill">Linux command line</h6>
+                                    <h6 class="main-skill skill">Remix framework</h6>
+                                    <h6 class="main-skill skill">Microservices</h6>
                             </div>
                     </section>
                     <section class="container">
@@ -580,7 +622,7 @@ ul.two-column li {
                             <h6>Spanish <em>(Native)</em></h6>
                         </li>
                         <li>
-                            <h6>English <em>(B2)</em></h6>
+                            <h6>English <em>(B2, Conversational)</em></h6>
                         </li>
                 </ul>
             </div>
@@ -591,7 +633,7 @@ ul.two-column li {
                         <h3>Summary</h3>
                         <div class="keyline"></div>
                     </div>            <p class="summary">
-                        Bachelor in Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. I&#x27;ve worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. I have proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team I&#x27;ve worked on.
+                        Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. I&#x27;ve worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. I have proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team I&#x27;ve worked on. I enjoy following the best practices to write quality code.
                     </p>
                 </div>
           <div class="container work-container">
@@ -601,26 +643,26 @@ ul.two-column li {
             </div>
               <section class="item">
                   <div class="section-header clearfix">
-                      <h3 class="bold pull-left">
+                      <h3 class="bold">
                               <a href="https://gbm.com/" target="_blank">
                                   Grupo Bursatil Mexicano, Casa de Bolsa
                               </a>
                       </h3>
-                      <h5 class="italic pull-right">
-                              <span class="startDate">05/2022</span>
-                              <span class="endDate"> - 08/2022</span>
+                      <h5 class="italic">
+                                  <span class="startDate">05/2022</span>
+                                      <span class="endDate"> - 08/2022</span>
                       </h5>
                   </div>
         
                   <h4>Mid Front End Engineer</h4>
         
         
-                  <p class="summary">I was the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline.</p>
+                  <p class="summary">Worked as the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline.</p>
         
                   <ul>
                       <li>Convert user requirements on new features using React/Redux/Sagas/SASS</li>
                       <li>Write unit and integration tests using React Testing Library and Jest</li>
-                      <li>Propose and implement improvements for the components and tests codebase by using state-of-the-art development patterns</li>
+                      <li>Propose and implement improvements for component and test codebase by using state-of-the-art development patterns</li>
                       <li>Being an ambassador of good development practices and flows for other frontend teammates</li>
                       <li>Implement a complex modular permission system</li>
                       <li>Greatly increase the project test coverage</li>
@@ -629,21 +671,21 @@ ul.two-column li {
               </section>
               <section class="item">
                   <div class="section-header clearfix">
-                      <h3 class="bold pull-left">
+                      <h3 class="bold">
                               <a href="https://www.scouting.org/" target="_blank">
                                   Boy Scouts of America
                               </a>
                       </h3>
-                      <h5 class="italic pull-right">
-                              <span class="startDate">08/2021</span>
-                              <span class="endDate"> - 05/2022</span>
+                      <h5 class="italic">
+                                  <span class="startDate">08/2021</span>
+                                      <span class="endDate"> - 05/2022</span>
                       </h5>
                   </div>
         
                   <h4>React Developer</h4>
         
         
-                  <p class="summary">I was frontend React developer on the international English speaker multidisciplinary team in charge of the Event Registration System for Boy Scouts of America using agile methodologies.</p>
+                  <p class="summary">Worked as frontend React developer on the international English speaker multidisciplinary team in charge of the Event Registration System for Boy Scouts of America using agile methodologies.</p>
         
                   <ul>
                       <li>Convert stories in to new features using React/Typescript/Redux/RxJS/Styled Components</li>
@@ -656,40 +698,40 @@ ul.two-column li {
               </section>
               <section class="item">
                   <div class="section-header clearfix">
-                      <h3 class="bold pull-left">
+                      <h3 class="bold">
                               <a href="https://www.theksquaregroup.com/" target="_blank">
                                   The Ksquare Group
                               </a>
                       </h3>
-                      <h5 class="italic pull-right">
-                              <span class="startDate">07/2021</span>
-                              <span class="endDate"> - 05/2022</span>
+                      <h5 class="italic">
+                                  <span class="startDate">07/2021</span>
+                                      <span class="endDate"> - 05/2022</span>
                       </h5>
                   </div>
         
                   <h4>Fullstack Developer</h4>
         
         
-                  <p class="summary">I worked as a USA nearshore developer for The Boy Scouts of America. My main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture.</p>
+                  <p class="summary">Worked as a USA nearshore developer for The Boy Scouts of America. My main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture.</p>
         
               </section>
               <section class="item">
                   <div class="section-header clearfix">
-                      <h3 class="bold pull-left">
+                      <h3 class="bold">
                               <a href="https://ssl.timbraxml.com/" target="_blank">
                                   Génesis Aplicaciones
                               </a>
                       </h3>
-                      <h5 class="italic pull-right">
-                              <span class="startDate">01/2020</span>
-                              <span class="endDate"> - 07/2021</span>
+                      <h5 class="italic">
+                                  <span class="startDate">01/2020</span>
+                                      <span class="endDate"> - 07/2021</span>
                       </h5>
                   </div>
         
                   <h4>Junior Web Developer</h4>
         
         
-                  <p class="summary">I was in charge of developing and maintaining some massive web products, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels.</p>
+                  <p class="summary">In charge of developing and maintaining some massive web products, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels.</p>
         
                   <ul>
                       <li>Migrate, develop and maintain the TimbraXML billing web application</li>
@@ -700,14 +742,14 @@ ul.two-column li {
               </section>
               <section class="item">
                   <div class="section-header clearfix">
-                      <h3 class="bold pull-left">
+                      <h3 class="bold">
                               <a href="http://www.grupodicas.com.mx/" target="_blank">
                                   Grupo Dicas
                               </a>
                       </h3>
-                      <h5 class="italic pull-right">
-                              <span class="startDate">06/2019</span>
-                              <span class="endDate"> - 12/2019</span>
+                      <h5 class="italic">
+                                  <span class="startDate">06/2019</span>
+                                      <span class="endDate"> - 12/2019</span>
                       </h5>
                   </div>
         
@@ -726,14 +768,14 @@ ul.two-column li {
               </section>
               <section class="item">
                   <div class="section-header clearfix">
-                      <h3 class="bold pull-left">
-                              <a href="http://marbol.com.mx/quienes-somos" target="_blank">
+                      <h3 class="bold">
+                              <a href="https://marbol.com.mx/quienes-somos" target="_blank">
                                   Systems development trainee
                               </a>
                       </h3>
-                      <h5 class="italic pull-right">
-                              <span class="startDate">06/2018</span>
-                              <span class="endDate"> - 08/2018</span>
+                      <h5 class="italic">
+                                  <span class="startDate">06/2018</span>
+                                      <span class="endDate"> - 08/2018</span>
                       </h5>
                   </div>
         
@@ -755,43 +797,25 @@ ul.two-column li {
         </div> 
             <section class="item">
                 <div class="section-header clearfix">
-            <h3 class="bold pull-left">
-                    Instituto Tecnológico de Mérida
+            <h3 class="bold">
+                    <a href="https://www.itmerida.mx/" target="_blank">
+                        Instituto Tecnológico de Mérida
+                    </a>
             </h3>
-            <h5 class="italic pull-right">
-                    <span class="startDate">08/2016</span>
-                    <span class="endDate"> - 12/2020</span>
+            <h5 class="italic">
+                        <span class="startDate">08/2016</span>
+                            <span class="endDate"> - 12/2020</span>
             </h5>
         </div>
          
-                <h4>Engineer in Computer Systems Engineer</h4>
+                <h5 class="location">Yucatán, México</h5>
         
-                <h5>91.69</h5>
-                      </section>
-        </div>
-        <div class="container volunteer-container">
-            <div class="title">
-                <h3>Volunteer</h3>
-                <div class="keyline"></div>
-            </div>
-            <section class="item">
-                <div class="section-header clearfix">
-                    <h3 class="bold pull-left">
-                            <a href="https://scouts.org.mx/" target="_blank">
-                                Scouts de México
-                                    <span class="sublink">∙ <a href="https://scouts.org.mx/" target="_blank" class="sublink">https://scouts.org.mx/</a></span>
-                            </a>
-                    </h3>
-                    <h5 class="italic pull-right">
-                            <span class="startDate">03/2019</span>
-                            <span class="endDate"> - Present</span>
-                    </h5>
-                </div>
-                <h5>Jefe de Tropa (YUC1990357)</h5>
+                <h4>Engineer in Computer Systems</h4>
         
-                <p class="summary">2022-01-01</p>
-        
-            </section>
+                <h5>Average score: 91.69</h5>
+                 
+                <h5 class="specialization">Artificial Intelligence</h5>
+                     </section>
         </div>
         <div class="container awards-container">
             <div class="title">
@@ -800,72 +824,107 @@ ul.two-column li {
             </div>
                 <section class="item">
                     <div class="section-header clearfix">
-                        <h3 class="bold pull-left">
+                        <h3 class="bold">
                                 HackSureste 2018
                         </h3>
-                        <h5 class="italic pull-right">
+                        <h5 class="italic">
                         </h5>
                     </div>
         
                     <h5 class="awarder">Team MeseBot</h5>
         
-                    <p class="summary">Thanks to Giovanny&#x27;s leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. He received recognition, a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship that includes product registration and a registered company at zero cost.</p>
+                    <p class="summary">Thanks to Giovanny&#x27;s leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. The team won a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship by Instituto Yucateco de Emprendedores (IYEM) that included product registration and a registered company.</p>
                 </section>
         </div>
-        <div class="container publications-container">
+        <div class="container project-container">
             <div class="title">
-                <h3>Publications</h3>
+                <h3>Projects</h3>
+                <div class="keyline"></div>
+            </div>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold">
+                                <a href="https://github.com/gggiovanny/costeos_app" target="_blank">
+                                    Costeapp
+                                        <span class="sublink">∙ <a href="https://github.com/gggiovanny/costeos_app" target="_blank" class="sublink">https://github.com/gggiovanny/costeos_app</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic">
+                                   2020
+                        </h5>
+                    </div>
+        
+                         <h5>Side project </h5>
+        
+        
+        
+        
+                    <p class="summary">An offline-first Web application (React, RXDB, react-hook-form, Bulma) for costing estimations of cooking recipes.</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold">
+                                <a href="https://github.com/gggiovanny/dicas-auditorias-app" target="_blank">
+                                    Asset validation application
+                                        <span class="sublink">∙ <a href="https://github.com/gggiovanny/dicas-auditorias-app" target="_blank" class="sublink">https://github.com/gggiovanny/dicas-auditorias-app</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic">
+                                   2019
+                        </h5>
+                    </div>
+        
+                         <h5>Company project at Grupo Dicas</h5>
+        
+        
+        
+        
+                    <p class="summary">An android application (Kotlin, Jetpack) to validate the existence of fixed assets with a QR code.</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header clearfix">
+                        <h3 class="bold">
+                                <a href="https://github.com/gggiovanny/FiestasMexicanas" target="_blank">
+                                    FiestasMexicanas
+                                        <span class="sublink">∙ <a href="https://github.com/gggiovanny/FiestasMexicanas" target="_blank" class="sublink">https://github.com/gggiovanny/FiestasMexicanas</a></span>
+                                </a>
+                        </h3>
+                        <h5 class="italic">
+                                   2018
+                        </h5>
+                    </div>
+        
+                         <h5>School project </h5>
+        
+        
+        
+        
+                    <p class="summary">A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production.</p>
+        
+                </section>
+        </div>
+        <div class="container volunteer-container">
+            <div class="title">
+                <h3>Volunteer</h3>
                 <div class="keyline"></div>
             </div>
             <section class="item">
                 <div class="section-header clearfix">
-                    <h3 class="bold pull-left">
-                            <a href="https://github.com/gggiovanny/costeos_app" target="_blank">
-                                Costeapp
+                    <h3 class="bold">
+                            <a href="https://scouts.org.mx/" target="_blank">
+                                Scouts de México
+                                    <span class="sublink">∙ <a href="https://scouts.org.mx/" target="_blank" class="sublink">https://scouts.org.mx/</a></span>
                             </a>
                     </h3>
-                    <h5 class="italic pull-right">
-                            01/2020
-                            </h5>
+                    <h5 class="italic">
+                                <span class="startDate">03/2019</span>
+                                    <span class="endDate"> - 01/2022</span>
+                    </h5>
                 </div>
+                <h5>Jefe de Tropa (YUC1990357)</h5>
         
-                <h5 class="awarder">Side project</h5>
-        
-                <p class="summary">An offline-first Web application (React, RXDB, react-hook-form, Bulma) for costing estimations of cooking recipes.</p>
-        
-            </section>
-            <section class="item">
-                <div class="section-header clearfix">
-                    <h3 class="bold pull-left">
-                            <a href="https://github.com/gggiovanny/dicas-auditorias-app" target="_blank">
-                                Asset validation application
-                            </a>
-                    </h3>
-                    <h5 class="italic pull-right">
-                            01/2019
-                            </h5>
-                </div>
-        
-                <h5 class="awarder">Grupo Dicas</h5>
-        
-                <p class="summary">An android application (Kotlin, Jetpack) to validate the existence of fixed assets with a QR code.</p>
-        
-            </section>
-            <section class="item">
-                <div class="section-header clearfix">
-                    <h3 class="bold pull-left">
-                            <a href="https://github.com/gggiovanny/FiestasMexicanas" target="_blank">
-                                FiestasMexicanas
-                            </a>
-                    </h3>
-                    <h5 class="italic pull-right">
-                            01/2018
-                            </h5>
-                </div>
-        
-                <h5 class="awarder">School project</h5>
-        
-                <p class="summary">A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production.</p>
         
             </section>
         </div>

@@ -9,11 +9,10 @@
 
 ## About <a name = "about"></a>
 
-A simple implementation of the CLI tool
-[kissmyresume](https://github.com/karlitos/KissMyResume) for local building my
-CV in to multiple formats, apply
-[themes](https://npmsearch.com/?q=jsonresume-theme) and hosting it in web format
-in [Github Pages](https://pages.github.com/).
+A simple use of the CLI tool
+[kissmyresume](https://github.com/karlitos/KissMyResume) for local building my own
+CV in to multiple formats by using a [Json Resume](https://jsonresume.org/) theme
+as input. Also includes hosting in [Github Pages](https://pages.github.com/).
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -28,20 +27,20 @@ You can build my included CV into different formats with:
 npm run build
 ```
 
-Or start a local server with live reloading:
+Start a local server with live reloading:
 
 ```
 npm start
 ```
 
-Or create or publish an `index.html` in the `/docs` directory for making it
+Create or publish an `index.html` in the `/docs` directory for making it
 available through [Github Pages](https://pages.github.com/).
 
 ```
 npm run publish
 ```
 
-Or you can test a lot of themes and save each version in a folder with the same
+You can test a themes and save each version in a folder with the same
 name as theme (inside `/test` folder):
 ```
 theme=<theme-name> npm run test 
@@ -56,10 +55,8 @@ globally:
 npm install -g kiss-my-resume
 ```
 
-And after that, restart your terminal.
+And after that, you will need to restart your terminal.
 
-End with an example of getting some data out of the system or using it for a
-little demo.
 
 ## Usage <a name = "usage"></a>
 If you want to make your own CV, feel free to fork this repo and edit the input
