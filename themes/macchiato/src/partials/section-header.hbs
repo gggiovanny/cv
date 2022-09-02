@@ -1,11 +1,13 @@
-<div class="section-header clearfix">
+<div class="section-header">
     {{#if name}}
     <h3 class="bold">
         {{#if website}}
             <a href="{{website}}" target="_blank">
                 {{name}}
                 {{#if showWebsite }}
-                    <span class="sublink">∙ <a href="{{website}}" target="_blank" class="sublink">{{website}}</a></span>
+                    <span class="sublink">∙ 
+                        <a href="{{website}}" target="_blank" class="sublink">{{website}}</a>
+                    </span>
                 {{/if}}
                 {{!-- <i class="fa fa-external-link" aria-hidden="true"></i> --}}
             </a>

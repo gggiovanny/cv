@@ -286,14 +286,15 @@ ul.two-column li {
 }
 
 @page {
-  size: letter portrait;
-  margin: 1cm;
-  /* top | right | bottom | left */
-  margin: 36px 18px 36px O;
+  size: auto;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  margin-right: 18px;
+  margin-left: 18px;
 }
 
 @page :first {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 @media print {
@@ -315,19 +316,13 @@ ul.two-column li {
     padding: 0 22px 0 34px;
   }
 
-  .work-container .item {
-    page-break-inside: avoid;
+  .container .item {
+    break-inside: avoid;
   }
 
   .fa-external-link {
     display: none;
   }
-
-  .pagebreak {
-    page-break-before: always;
-    margin-top: 36px;
-  }
-
 }
 
 /* Components */
@@ -642,7 +637,7 @@ ul.two-column li {
                 <div class="keyline"></div>
             </div>
               <section class="item">
-                  <div class="section-header clearfix">
+                  <div class="section-header">
                       <h3 class="bold">
                               <a href="https://gbm.com/" target="_blank">
                                   Grupo Bursatil Mexicano, Casa de Bolsa
@@ -670,7 +665,7 @@ ul.two-column li {
                   </ul>
               </section>
               <section class="item">
-                  <div class="section-header clearfix">
+                  <div class="section-header">
                       <h3 class="bold">
                               <a href="https://www.scouting.org/" target="_blank">
                                   Boy Scouts of America
@@ -697,7 +692,7 @@ ul.two-column li {
                   </ul>
               </section>
               <section class="item">
-                  <div class="section-header clearfix">
+                  <div class="section-header">
                       <h3 class="bold">
                               <a href="https://www.theksquaregroup.com/" target="_blank">
                                   The Ksquare Group
@@ -716,7 +711,7 @@ ul.two-column li {
         
               </section>
               <section class="item">
-                  <div class="section-header clearfix">
+                  <div class="section-header">
                       <h3 class="bold">
                               <a href="https://ssl.timbraxml.com/" target="_blank">
                                   Génesis Aplicaciones
@@ -741,7 +736,7 @@ ul.two-column li {
                   </ul>
               </section>
               <section class="item">
-                  <div class="section-header clearfix">
+                  <div class="section-header">
                       <h3 class="bold">
                               <a href="http://www.grupodicas.com.mx/" target="_blank">
                                   Grupo Dicas
@@ -767,7 +762,7 @@ ul.two-column li {
                   </ul>
               </section>
               <section class="item">
-                  <div class="section-header clearfix">
+                  <div class="section-header">
                       <h3 class="bold">
                               <a href="https://marbol.com.mx/quienes-somos" target="_blank">
                                   Systems development trainee
@@ -796,7 +791,7 @@ ul.two-column li {
             <div class="keyline"></div>
         </div> 
             <section class="item">
-                <div class="section-header clearfix">
+                <div class="section-header">
             <h3 class="bold">
                     <a href="https://www.itmerida.mx/" target="_blank">
                         Instituto Tecnológico de Mérida
@@ -823,9 +818,14 @@ ul.two-column li {
                 <div class="keyline"></div>
             </div>
                 <section class="item">
-                    <div class="section-header clearfix">
+                    <div class="section-header">
                         <h3 class="bold">
-                                HackSureste 2018
+                                <a href="https://github.com/gggiovanny/mesebot_legacy" target="_blank">
+                                    HackSureste 2018
+                                        <span class="sublink">∙ 
+                                            <a href="https://github.com/gggiovanny/mesebot_legacy" target="_blank" class="sublink">https://github.com/gggiovanny/mesebot_legacy</a>
+                                        </span>
+                                </a>
                         </h3>
                         <h5 class="italic">
                         </h5>
@@ -836,17 +836,46 @@ ul.two-column li {
                     <p class="summary">Thanks to Giovanny&#x27;s leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. The team won a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship by Instituto Yucateco de Emprendedores (IYEM) that included product registration and a registered company.</p>
                 </section>
         </div>
+        <div class="container publications-container">
+            <div class="title">
+                <h3>Publications</h3>
+                <div class="keyline"></div>
+            </div>
+            <section class="item">
+                <div class="section-header">
+                    <h3 class="bold">
+                            <a href="http://depi.orizaba.tecnm.mx/Journals/CIM_2021_1.8.pdf" target="_blank">
+                                Arquitectura basada en agentes para el control de tráfico urbano utilizando la herramienta de simulación SUMO
+                            </a>
+                    </h3>
+                    <h5 class="italic">
+                            10/2021
+                            </h5>
+                </div>
+        
+                <h5 class="awarder">
+                    <a href="http://depi.orizaba.tecnm.mx/Journals/CIM_2021_1.8.pdf" target="_blank">
+                        JOURNAL CIM: Coloquio de Investigación Multidisciplinaria (ISSN: 2007:8102)
+                    </a>
+                </h5>
+        
+                <p class="summary">My ongoing bachelor dissertation got a derivate published paper, and I had the honor to present it at CIM-Orizaba-2021 International Event where it aroused a lot of interest.</p>
+        
+            </section>
+        </div>
         <div class="container project-container">
             <div class="title">
                 <h3>Projects</h3>
                 <div class="keyline"></div>
             </div>
                 <section class="item">
-                    <div class="section-header clearfix">
+                    <div class="section-header">
                         <h3 class="bold">
                                 <a href="https://github.com/gggiovanny/costeos_app" target="_blank">
                                     Costeapp
-                                        <span class="sublink">∙ <a href="https://github.com/gggiovanny/costeos_app" target="_blank" class="sublink">https://github.com/gggiovanny/costeos_app</a></span>
+                                        <span class="sublink">∙ 
+                                            <a href="https://github.com/gggiovanny/costeos_app" target="_blank" class="sublink">https://github.com/gggiovanny/costeos_app</a>
+                                        </span>
                                 </a>
                         </h3>
                         <h5 class="italic">
@@ -854,20 +883,54 @@ ul.two-column li {
                         </h5>
                     </div>
         
-                         <h5>Side project </h5>
         
         
+                    <div class="flex-container">
+                            <h6 class="skill">React</h6>
+                            <h6 class="skill">RXDB</h6>
+                            <h6 class="skill">React Hook Form</h6>
+                            <h6 class="skill">Bulma</h6>
+                    </div>
         
         
-                    <p class="summary">An offline-first Web application (React, RXDB, react-hook-form, Bulma) for costing estimations of cooking recipes.</p>
+                    <p class="summary">An offline-first Web application for costing estimations of cooking recipes.</p>
         
                 </section>
                 <section class="item">
-                    <div class="section-header clearfix">
+                    <div class="section-header">
+                        <h3 class="bold">
+                                <a href="https://github.com/gggiovanny/PetriPy" target="_blank">
+                                    PetriPy
+                                        <span class="sublink">∙ 
+                                            <a href="https://github.com/gggiovanny/PetriPy" target="_blank" class="sublink">https://github.com/gggiovanny/PetriPy</a>
+                                        </span>
+                                </a>
+                        </h3>
+                        <h5 class="italic">
+                                   2021
+                        </h5>
+                    </div>
+        
+                         <h5>Dissertation derivate project </h5>
+        
+                        <div class="flex-container">
+                                <h5>Python</h5>
+                                <h5>, PyPI Package</h5>
+                        </div>
+        
+        
+        
+                    <p class="summary">Create timed Petri nets in a simple way through place and transition nodes that execute actions defined by you.</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header">
                         <h3 class="bold">
                                 <a href="https://github.com/gggiovanny/dicas-auditorias-app" target="_blank">
                                     Asset validation application
-                                        <span class="sublink">∙ <a href="https://github.com/gggiovanny/dicas-auditorias-app" target="_blank" class="sublink">https://github.com/gggiovanny/dicas-auditorias-app</a></span>
+                                        <span class="sublink">∙ 
+                                            <a href="https://github.com/gggiovanny/dicas-auditorias-app" target="_blank" class="sublink">https://github.com/gggiovanny/dicas-auditorias-app</a>
+                                        </span>
                                 </a>
                         </h3>
                         <h5 class="italic">
@@ -878,17 +941,54 @@ ul.two-column li {
                          <h5>Company project at Grupo Dicas</h5>
         
         
+                    <div class="flex-container">
+                            <h6 class="skill">Mobile</h6>
+                            <h6 class="skill">Android</h6>
+                            <h6 class="skill">Kotlin</h6>
+                            <h6 class="skill">Jetpack</h6>
+                    </div>
         
         
-                    <p class="summary">An android application (Kotlin, Jetpack) to validate the existence of fixed assets with a QR code.</p>
+                    <p class="summary">An android application to validate the existence of fixed assets with a QR code.</p>
         
                 </section>
                 <section class="item">
-                    <div class="section-header clearfix">
+                    <div class="section-header">
+                        <h3 class="bold">
+                                <a href="https://github.com/gggiovanny/TesisSemaforosInteligentes" target="_blank">
+                                    Intelligent urban traffic control strategies
+                                        <span class="sublink">∙ 
+                                            <a href="https://github.com/gggiovanny/TesisSemaforosInteligentes" target="_blank" class="sublink">https://github.com/gggiovanny/TesisSemaforosInteligentes</a>
+                                        </span>
+                                </a>
+                        </h3>
+                        <h5 class="italic">
+                                   2021
+                        </h5>
+                    </div>
+        
+                         <h5>Bachelor dissertation at InstitutoInstituto Tecnológico de Mérida</h5>
+        
+        
+                    <div class="flex-container">
+                            <h6 class="skill">LaTeX</h6>
+                            <h6 class="skill">Markdown</h6>
+                            <h6 class="skill">Python</h6>
+                            <h6 class="skill">PetriPy</h6>
+                    </div>
+        
+        
+                    <p class="summary">Based on an architecture running on an urban traffic simulator, where each traffic light is an intelligent agent that makes decisions to give passing priorities according to predictions made based on the historical behavior of the intersection</p>
+        
+                </section>
+                <section class="item">
+                    <div class="section-header">
                         <h3 class="bold">
                                 <a href="https://github.com/gggiovanny/FiestasMexicanas" target="_blank">
                                     FiestasMexicanas
-                                        <span class="sublink">∙ <a href="https://github.com/gggiovanny/FiestasMexicanas" target="_blank" class="sublink">https://github.com/gggiovanny/FiestasMexicanas</a></span>
+                                        <span class="sublink">∙ 
+                                            <a href="https://github.com/gggiovanny/FiestasMexicanas" target="_blank" class="sublink">https://github.com/gggiovanny/FiestasMexicanas</a>
+                                        </span>
                                 </a>
                         </h3>
                         <h5 class="italic">
@@ -899,9 +999,16 @@ ul.two-column li {
                          <h5>School project </h5>
         
         
+                    <div class="flex-container">
+                            <h6 class="skill">C#</h6>
+                            <h6 class="skill">.NET</h6>
+                            <h6 class="skill">Windows Forms</h6>
+                            <h6 class="skill">SQL Server</h6>
+                            <h6 class="skill">T-SQL</h6>
+                    </div>
         
         
-                    <p class="summary">A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production.</p>
+                    <p class="summary">A Windows Forms desktop application for quoting, order management and piñata production.</p>
         
                 </section>
         </div>
@@ -911,11 +1018,13 @@ ul.two-column li {
                 <div class="keyline"></div>
             </div>
             <section class="item">
-                <div class="section-header clearfix">
+                <div class="section-header">
                     <h3 class="bold">
                             <a href="https://scouts.org.mx/" target="_blank">
                                 Scouts de México
-                                    <span class="sublink">∙ <a href="https://scouts.org.mx/" target="_blank" class="sublink">https://scouts.org.mx/</a></span>
+                                    <span class="sublink">∙ 
+                                        <a href="https://scouts.org.mx/" target="_blank" class="sublink">https://scouts.org.mx/</a>
+                                    </span>
                             </a>
                     </h3>
                     <h5 class="italic">

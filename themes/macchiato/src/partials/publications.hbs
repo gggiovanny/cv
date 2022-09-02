@@ -4,10 +4,18 @@
 
     {{#each resume.publications}}
     <section class="item">
-        {{> section-header name=this.name showWebsite=true}}
+        {{> section-header name=this.name website=this.url }}
 
         {{#if publisher}}
-        <h5 class="awarder">{{publisher}}</h5>
+        <h5 class="awarder">
+            {{#if url}}
+            <a href="{{url}}" target="_blank">
+                {{publisher}}
+            </a>
+            {{else}}
+                {{publisher}}
+            {{/if}}
+        </h5>
         {{/if}}
 
         {{#if summary}}

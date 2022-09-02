@@ -27,10 +27,10 @@
     "prettier": "^1.18.2"
   },
   "scripts": {
-    "build": "kissmyresume build resume/base.json --theme ./themes/macchiato   --out build",
+    "build": "kissmyresume build resume/base.json --theme ./themes/macchiato --out build",
     "test": "kissmyresume build resume/base.json --theme $theme --out test/$theme",
     "publish": "run-s build publish:*",
-    "publish:html": "kissmyresume build resume/base.json --theme ./themes/macchiato   --out docs --name index --format HTML",
+    "publish:html": "kissmyresume build resume/base.json --theme ./themes/macchiato  --out docs --name index --format HTML",
     "publish:pdf": "puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format letter print build/resume.html build/resume.pdf",
     "new": "kissmyresume new",
     "validate": "kissmyresume validate resume/base.json",

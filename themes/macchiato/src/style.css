@@ -278,14 +278,15 @@ ul.two-column li {
 }
 
 @page {
-  size: letter portrait;
-  margin: 1cm;
-  /* top | right | bottom | left */
-  margin: 36px 18px 36px O;
+  size: auto;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  margin-right: 18px;
+  margin-left: 18px;
 }
 
 @page :first {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 @media print {
@@ -307,19 +308,13 @@ ul.two-column li {
     padding: 0 22px 0 34px;
   }
 
-  .work-container .item {
-    page-break-inside: avoid;
+  .container .item {
+    break-inside: avoid;
   }
 
   .fa-external-link {
     display: none;
   }
-
-  .pagebreak {
-    page-break-before: always;
-    margin-top: 36px;
-  }
-
 }
 
 /* Components */

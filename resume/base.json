@@ -129,39 +129,62 @@
       "title": "HackSureste 2018",
       "date": "2018-11-23",
       "awarder": "Team MeseBot",
-      "summary": "Thanks to Giovanny's leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. The team won a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship by Instituto Yucateco de Emprendedores (IYEM) that included product registration and a registered company."
+      "summary": "Thanks to Giovanny's leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. The team won a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship by Instituto Yucateco de Emprendedores (IYEM) that included product registration and a registered company.",
+      "website": "https://github.com/gggiovanny/mesebot_legacy"
     }
   ],
-  "volunteer": [
+  "publications": [
     {
-      "organization": "Scouts de México",
-      "position": "Jefe de Tropa (YUC1990357)",
-      "url": "https://scouts.org.mx/",
-      "startDate": "2019-03-16",
-      "endDate": "2022-01-01",
-      "summary": "",
-      "highlights": []
+      "name": "Arquitectura basada en agentes para el control de tráfico urbano utilizando la herramienta de simulación SUMO",
+      "publisher": "JOURNAL CIM: Coloquio de Investigación Multidisciplinaria (ISSN: 2007:8102)",
+      "releaseDate": "2021-10-01",
+      "url": "http://depi.orizaba.tecnm.mx/Journals/CIM_2021_1.8.pdf",
+      "summary": "My ongoing bachelor dissertation got a derivate published paper, and I had the honor to present it at CIM-Orizaba-2021 International Event where it aroused a lot of interest."
     }
   ],
-  "publications": [],
   "projects": [
     {
       "name": "Costeapp",
-      "description": "An offline-first Web application (React, RXDB, react-hook-form, Bulma) for costing estimations of cooking recipes.",
+      "description": "An offline-first Web application for costing estimations of cooking recipes.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "React",
+        "RXDB",
+        "React Hook Form",
+        "Bulma"
+      ],
       "startDate": "2020",
       "endDate": "",
       "url": "https://github.com/gggiovanny/costeos_app",
       "roles": [],
       "entity": "",
-      "type": "Side project"
+      "type": ""
+    },
+    {
+      "name": "PetriPy",
+      "description": "Create timed Petri nets in a simple way through place and transition nodes that execute actions defined by you.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2021",
+      "endDate": "",
+      "url": "https://github.com/gggiovanny/PetriPy",
+      "roles": [
+        "Python",
+        "PyPI Package"
+      ],
+      "entity": "",
+      "type": "Dissertation derivate project"
     },
     {
       "name": "Asset validation application",
-      "description": "An android application (Kotlin, Jetpack) to validate the existence of fixed assets with a QR code.",
+      "description": "An android application to validate the existence of fixed assets with a QR code.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "Mobile",
+        "Android",
+        "Kotlin",
+        "Jetpack"
+      ],
       "startDate": "2019",
       "endDate": "2019",
       "url": "https://github.com/gggiovanny/dicas-auditorias-app",
@@ -170,10 +193,33 @@
       "type": "Company project"
     },
     {
-      "name": "FiestasMexicanas",
-      "description": "A Windows Forms (C#, .NET) desktop application for quoting, order management and piñata production.",
+      "name": "Intelligent urban traffic control strategies",
+      "description": "Based on an architecture running on an urban traffic simulator, where each traffic light is an intelligent agent that makes decisions to give passing priorities according to predictions made based on the historical behavior of the intersection",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "LaTeX",
+        "Markdown",
+        "Python",
+        "PetriPy"
+      ],
+      "startDate": "2021",
+      "endDate": "",
+      "url": "https://github.com/gggiovanny/TesisSemaforosInteligentes",
+      "roles": [],
+      "entity": "InstitutoInstituto Tecnológico de Mérida",
+      "type": "Bachelor dissertation"
+    },
+    {
+      "name": "FiestasMexicanas",
+      "description": "A Windows Forms desktop application for quoting, order management and piñata production.",
+      "highlights": [],
+      "keywords": [
+        "C#",
+        ".NET",
+        "Windows Forms",
+        "SQL Server",
+        "T-SQL"
+      ],
       "startDate": "2018",
       "endDate": "2018",
       "url": "https://github.com/gggiovanny/FiestasMexicanas",
@@ -285,6 +331,17 @@
     {
       "language": "English",
       "fluency": "B2, Conversational"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Scouts de México",
+      "position": "Jefe de Tropa (YUC1990357)",
+      "url": "https://scouts.org.mx/",
+      "startDate": "2019-03-16",
+      "endDate": "2022-01-01",
+      "summary": "",
+      "highlights": []
     }
   ]
 }
