@@ -122,7 +122,7 @@
   projects: 
     - 
       name: "Costeapp"
-      description: "An offline-first Web application for costing estimations of cooking recipes."
+      description: "An offline-first web application for costing estimations of cooking recipes."
       highlights: []
       keywords: 
         - "React"
