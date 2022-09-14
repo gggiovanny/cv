@@ -1,0 +1,347 @@
+{
+  "basics": {
+    "name": "Giovanny González Baltazar",
+    "label": "",
+    "picture": "https://www.gravatar.com/avatar/7fa4088bfe63bc840f8815907b999c0c",
+    "email": "giovanny.gonzalez.19@gmail.com",
+    "phone": "+52 999 145 4542",
+    "website": "https://gggiovanny.github.io/cv/",
+    "summary": "Ingeniero en Sistemas Informáticos por el Instituto Tecnológico de Mérida, con 3 años de experiencia profesional. He trabajado en equipos multidisciplinares internacionales desarrollando productos web masivos, software empresarial y soluciones web a medida para franquicias de ámbito nacional. Competente en muchos lenguajes y frameworks (como React y FastAPI), y con experiencia en Typescript, SQL, Git, PHP y metodologías ágiles. He demostrado ser muy versátil, pudiendo trabajar tanto en backend como en frontend; y con una rápida adaptación a nuevos lenguajes, frameworks y herramientas, así como una asimilación de la cultura y buenas prácticas de cada equipo en el que he trabajado. Me gusta seguir las mejores prácticas para escribir código de calidad.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Mérida, Yucatán.",
+      "countryCode": "México"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "giovanny-gonzalez-baltazar",
+        "url": "https://www.linkedin.com/in/giovanny-gonzalez-baltazar/"
+      },
+      {
+        "network": "Github",
+        "username": "gggiovanny",
+        "url": "https://github.com/gggiovanny"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Grupo Bursatil Mexicano, Casa de Bolsa",
+      "position": "Mid Front End Engineer",
+      "website": "https://gbm.com/",
+      "startDate": "2022-05-23",
+      "endDate": "2022-08-31",
+      "summary": "Trabajó como ingeniero principal de frontend de un equipo de plataforma web de back-office de GBM utilizando una canalización CI/CD de AWS.",
+      "highlights": [
+        "Convertir los requerimientos de los usuarios en nuevas características usando React/Redux/Sagas/SASS",
+        "Escribir pruebas unitarias y de integración utilizando React Testing Library y Jest",
+        "Proponer e implementar mejoras para la base de código de los componentes y las pruebas mediante el uso de patrones de desarrollo de última generación",
+        "Ser un embajador de las buenas prácticas y flujos de desarrollo para otros compañeros de equipo de frontend",
+        "Implementar un complejo sistema de permisos modulares",
+        "Aumentar en gran medida la cobertura de las pruebas del proyecto",
+        "Migrar las versiones de React y de las bibliotecas de prueba"
+      ]
+    },
+    {
+      "company": "Boy Scouts of America",
+      "position": "React Developer",
+      "website": "https://www.scouting.org/",
+      "startDate": "2021-08-02",
+      "endDate": "2022-05-20",
+      "summary": "Trabajé como desarrollador frontend React en el equipo multidisciplinario internacional de habla inglesa a cargo del Sistema de Registro de Eventos para Boy Scouts of America utilizando metodologías ágiles.",
+      "highlights": [
+        "Convertir las historias en nuevas características usando React/Typescript/Redux/RxJS/Styled Components",
+        "Comunicarse con los usuarios cuando sea necesario para resolver problemas específicos",
+        "Mantener siempre la sincronización con los equipos de diseño y backend",
+        "Mantener la base de código en forma modular y auto-documentada",
+        "Escribir pruebas de integración con Cypress",
+        "Documentar procesos y código en Confluence"
+      ]
+    },
+    {
+      "company": "The Ksquare Group",
+      "position": "Fullstack Developer",
+      "website": "https://www.theksquaregroup.com/",
+      "startDate": "2021-07-19",
+      "endDate": "2022-05-20",
+      "summary": "Trabajé como desarrollador nearshore para The Boy Scouts of America de Estados Unidos. Mi principal objetivo es entregar un resultado de alta calidad en tiempo y forma, siguiendo la cultura de Ksquare."
+    },
+    {
+      "company": "Génesis Aplicaciones",
+      "position": "Desarrollador web junior",
+      "website": "https://ssl.timbraxml.com/",
+      "startDate": "2020-01-08",
+      "endDate": "2021-07-16",
+      "summary": "Encargado de desarrollar y mantener algunos productos web masivos, siendo el principal la aplicación web de facturación TimbraXML. Además de adquirir muchos conocimientos de desarrollo web frontend y backend, aprendí lo que es un buen flujo de trabajo entre un equipo de desarrollo profesional, apoyado por herramientas de control de versiones, tableros de progresión y canales de comunicación eficaces.",
+      "highlights": [
+        "Migrar, desarrollar y mantener la aplicación web de facturación TimbraXML",
+        "Entregar soluciones web a medida (PHP/CodeIgniter/JQuery) para franquicias a nivel nacional",
+        "Convierta los procesos básicos en bibliotecas documentadas con una sintaxis moderna y legible",
+        "Hacer flujos con Git para evitar choques entre los cambios de los compañeros de equipo"
+      ]
+    },
+    {
+      "company": "Grupo Dicas",
+      "position": "Asistente de apoyo técnico",
+      "website": "http://www.grupodicas.com.mx/",
+      "startDate": "2019-06-17",
+      "endDate": "2019-12-20",
+      "summary": "En un principio se me encomendó ser asistente de soporte técnico y administración de servidores, pero terminé haciendo todo el proceso de ingeniería para desarrollar una aplicación Android.",
+      "highlights": [
+        "Recopilar e interpretar información sobre la experiencia de uso de programas informáticos por parte de usuarios con escasos o nulos conocimientos de informática",
+        "Utilización de arquitecturas modernas de diseño de software (MVVM y patrón observador)",
+        "Hacer ingeniería inversa de un sistema existente para integrarlo en otro con cero documentación",
+        "Implementación de una API REST con PHP y Laravel",
+        "Asegura las peticiones con tokens web JSON"
+      ]
+    },
+    {
+      "company": "Marbol Industria Mueblera",
+      "position": "Aprendiz de desarrollo de sistemas",
+      "website": "https://marbol.com.mx/quienes-somos",
+      "startDate": "2018-06-04",
+      "endDate": "2018-08-10",
+      "summary": "Miembro temporal del equipo de desarrollo y tutorizado por Félix Amaya Valencia, de quien obtuve rápidamente el reconocimiento y se me asignaron tareas del mismo peso que las que se daban a los miembros permanentes del equipo. Trabajando allí, aprendí a comprender la importancia de conocer los problemas en profundidad antes de escribir una sola línea de código.",
+      "highlights": [
+        "Diseñar módulos del sistema ERP interno a medida con C# Windows Forms.",
+        "Crear el backend para mis módulos utilizando tablas T-SQL y procedimientos almacenados."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Mérida",
+      "location": "Yucatán, México",
+      "url": "https://www.itmerida.mx/",
+      "area": "Sistemas informáticos",
+      "studyType": "Ingeniero",
+      "specialization": "Inteligencia Artificial",
+      "startDate": "2016-08-15",
+      "endDate": "2020-12-11",
+      "score": "91.69",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "HackSureste 2018",
+      "date": "2018-11-23",
+      "awarder": "Equipo MeseBot",
+      "summary": "Gracias al liderazgo y las habilidades técnicas de Giovanny, el equipo Mesebot fue reconocido con el tercer lugar por crear un proyecto de innovación de alto impacto que consiste en un sistema para entregar los pedidos de los restaurantes directamente de la mesa a la cocina mediante comandos de voz. El equipo ganó un premio en efectivo, un pase a Talent Land en Guadalajara y una mentoría de emprendimiento por parte del Instituto Yucateco de Emprendedores (IYEM) que incluyó el registro del producto y una empresa registrada.",
+      "website": "https://github.com/gggiovanny/mesebot_legacy"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Arquitectura basada en agentes para el control de tráfico urbano utilizando la herramienta de simulación SUMO",
+      "publisher": "JOURNAL CIM: Coloquio de Investigación Multidisciplinaria (ISSN: 2007:8102)",
+      "releaseDate": "2021-10-01",
+      "url": "http://depi.orizaba.tecnm.mx/Journals/CIM_2021_1.8.pdf",
+      "summary": "Mi tesis de licenciatura en curso obtuvo una publicación derivada, y tuve el honor de presentarla en el evento internacional CIM-Orizaba-2021, donde despertó mucho interés."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Costeapp",
+      "description": "Una aplicación web offline para calcular los costes de las recetas de cocina.",
+      "highlights": [],
+      "keywords": [
+        "React",
+        "RXDB",
+        "React Hook Form",
+        "Bulma"
+      ],
+      "startDate": "2020",
+      "endDate": "",
+      "url": "https://github.com/gggiovanny/costeos_app",
+      "roles": [],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "PetriPy",
+      "description": "Cree redes de Petri temporizadas de forma sencilla mediante nodos de lugar y transición que ejecutan acciones definidas por usted.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2021",
+      "endDate": "",
+      "url": "https://github.com/gggiovanny/PetriPy",
+      "roles": [
+        "Python",
+        "PyPI Package"
+      ],
+      "entity": "",
+      "type": "Proyecto derivado de mi tesis"
+    },
+    {
+      "name": "Aplicación de validación de activos fijos",
+      "description": "Una aplicación androide para validar la existencia de activos fijos con un código QR.",
+      "highlights": [],
+      "keywords": [
+        "Mobile",
+        "Android",
+        "Kotlin",
+        "Jetpack"
+      ],
+      "startDate": "2019",
+      "endDate": "2019",
+      "url": "https://github.com/gggiovanny/dicas-auditorias-app",
+      "roles": [],
+      "entity": "Grupo Dicas",
+      "type": "Proyecto empresarial"
+    },
+    {
+      "name": "Estrategias inteligentes de control del tráfico urbano",
+      "description": "Basado en una arquitectura que se ejecuta en un simulador de tráfico urbano, donde cada semáforo es un agente inteligente que toma decisiones de prioridad de paso según las predicciones realizadas en base al comportamiento histórico de la intersección",
+      "highlights": [],
+      "keywords": [
+        "LaTeX",
+        "Markdown",
+        "Python",
+        "PetriPy"
+      ],
+      "startDate": "2021",
+      "endDate": "",
+      "url": "https://github.com/gggiovanny/TesisSemaforosInteligentes",
+      "roles": [],
+      "entity": "InstitutoInstituto Tecnológico de Mérida",
+      "type": "Tesis de licenciatura"
+    },
+    {
+      "name": "FiestasMexicanas",
+      "description": "Una aplicación de escritorio de Windows Forms para cotizar, gestionar pedidos y producir piñatas.",
+      "highlights": [],
+      "keywords": [
+        "C#",
+        ".NET",
+        "Windows Forms",
+        "SQL Server",
+        "T-SQL"
+      ],
+      "startDate": "2018",
+      "endDate": "2018",
+      "url": "https://github.com/gggiovanny/FiestasMexicanas",
+      "roles": [],
+      "entity": "",
+      "type": "Proyecto universitario"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Desarrollo web frontend",
+      "level": "Experto",
+      "keywords": [
+        "HTML/CSS",
+        "Javascript",
+        "Typescript",
+        "React",
+        "Redux",
+        "Sagas",
+        "React Query",
+        "RxJS",
+        "CSS in JS",
+        "SASS",
+        "Jest",
+        "Testing Library",
+        "Cypress",
+        "JQuery"
+      ]
+    },
+    {
+      "name": "Desarrollo web backend",
+      "level": "Avanzado",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "NodeJS",
+        "Prisma",
+        "PHP (Laravel & Codeigniter)",
+        "T-SQL",
+        "MySQL",
+        "Stored procedures",
+        "ORM",
+        "REST",
+        "JWT",
+        "Auth0"
+      ]
+    },
+    {
+      "name": "Aplicaciones para Windows",
+      "level": "Intermedio",
+      "keywords": [
+        "C#",
+        "SQL Server (T-SQL)",
+        "Stored procedures",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Desarrollo móvil",
+      "level": "Intermedio",
+      "keywords": [
+        "Kotlin",
+        "Java",
+        "Android Jetpack"
+      ]
+    },
+    {
+      "name": "Conocimientos técnicos",
+      "level": "Ninja",
+      "keywords": [
+        "Git",
+        "VS Code",
+        "Línea de comandos de Linux",
+        "Metodologías ágiles",
+        "Markdown",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Aprendiendo",
+      "level": "",
+      "keywords": [
+        "Amazon Web Services",
+        "Remix framework",
+        "Microservicios"
+      ]
+    },
+    {
+      "name": "Habilidades blandas",
+      "level": "",
+      "keywords": [
+        "Capacidad de análisis",
+        "Orientado al detalle",
+        "Pensamiento crítico",
+        "Integridad",
+        "Liderazgo",
+        "Investigación",
+        "Gestión del estrés",
+        "Visión empresarial",
+        "Comunicación escrita y oral"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "B2, Conversacional"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Scouts de México",
+      "position": "Jefe de Tropa (YUC1990357)",
+      "url": "https://scouts.org.mx/",
+      "startDate": "2019-03-16",
+      "endDate": "2022-01-01",
+      "summary": "",
+      "highlights": []
+    }
+  ]
+}

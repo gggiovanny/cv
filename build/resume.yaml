@@ -84,8 +84,8 @@
         - "Implemented a REST API with PHP and Laravel"
         - "Secured the requests with JSON Web Tokens"
     - 
-      company: "Systems development trainee"
-      position: "Marbol Industria Mueblera"
+      company: "Marbol Industria Mueblera"
+      position: "Systems development trainee"
       website: "https://marbol.com.mx/quienes-somos"
       startDate: "2018-06-04"
       endDate: "2018-08-10"

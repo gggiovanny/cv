@@ -6,7 +6,7 @@
     "email": "giovanny.gonzalez.19@gmail.com",
     "phone": "+52 999 145 4542",
     "website": "https://gggiovanny.github.io/cv/",
-    "summary": "Ingeniero en Sistemas Informáticos por el Instituto Tecnológico de Mérida, con 3 años de experiencia profesional. He trabajado en equipos multidisciplinares internacionales desarrollando productos web masivos, software empresarial y soluciones web a medida para franquicias de ámbito nacional. Competente en muchos lenguajes y frameworks (como React y FastAPI), y con experiencia en Typescript, SQL, Git, PHP y metodologías ágiles. He demostrado ser muy versátil, pudiendo trabajar tanto en backend como en frontend; y con una rápida adaptación a nuevos lenguajes, frameworks y herramientas, así como una asimilación de la cultura y buenas prácticas de cada equipo en el que he trabajado. Me gusta seguir las mejores prácticas para escribir código de calidad.",
+    "summary": "Computer Systems Engineer from the Instituto Tecnológico de Mérida, with 3 years of professional experience. I've worked on international multidisciplinary teams developing massive web products, enterprise software and custom web-based solutions for national level franchises. Proficient in many languages and frameworks (such as React and FastAPI), and experienced in Typescript, SQL, Git, PHP and agile methodologies. I have proven to be very versatile, being able to work in both backend and frontend; and with a quick adaptation to new languages, frameworks and tools, as well as an assimilation of the culture and good practices of each team I've worked on. I enjoy following the best practices to write quality code.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,15 +33,15 @@
       "website": "https://gbm.com/",
       "startDate": "2022-05-23",
       "endDate": "2022-08-31",
-      "summary": "Trabajó como ingeniero principal de frontend de un equipo de plataforma web de back-office de GBM utilizando una canalización CI/CD de AWS.",
+      "summary": "Worked as the lead frontend engineer of a GBM back-office web platform team using an AWS CI/CD pipeline.",
       "highlights": [
-        "Convertir los requerimientos de los usuarios en nuevas características usando React/Redux/Sagas/SASS",
-        "Escribir pruebas unitarias y de integración utilizando React Testing Library y Jest",
-        "Proponer e implementar mejoras para la base de código de los componentes y las pruebas mediante el uso de patrones de desarrollo de última generación",
-        "Ser un embajador de las buenas prácticas y flujos de desarrollo para otros compañeros de equipo de frontend",
-        "Implementar un complejo sistema de permisos modulares",
-        "Aumentar en gran medida la cobertura de las pruebas del proyecto",
-        "Migrar las versiones de React y de las bibliotecas de prueba"
+        "Convert user requirements on new features using React/Redux/Sagas/SASS",
+        "Write unit and integration tests using React Testing Library and Jest",
+        "Propose and implement improvements for component and test codebase by using state-of-the-art development patterns",
+        "Being an ambassador of good development practices and flows for other frontend teammates",
+        "Implement a complex modular permission system",
+        "Greatly increase the project test coverage",
+        "Migrate React and testing libraries versions"
       ]
     },
     {
@@ -50,14 +50,14 @@
       "website": "https://www.scouting.org/",
       "startDate": "2021-08-02",
       "endDate": "2022-05-20",
-      "summary": "Trabajé como desarrollador frontend React en el equipo multidisciplinario internacional de habla inglesa a cargo del Sistema de Registro de Eventos para Boy Scouts of America utilizando metodologías ágiles.",
+      "summary": "Worked as frontend React developer on the international English speaker multidisciplinary team in charge of the Event Registration System for Boy Scouts of America using agile methodologies.",
       "highlights": [
-        "Convertir las historias en nuevas características usando React/Typescript/Redux/RxJS/Styled Components",
-        "Comunicarse con los usuarios cuando sea necesario para resolver problemas específicos",
-        "Mantener siempre la sincronización con los equipos de diseño y backend",
-        "Mantener la base de código en forma modular y auto-documentada",
-        "Escribir pruebas de integración con Cypress",
-        "Documentar procesos y código en Confluence"
+        "Convert stories in to new features using React/Typescript/Redux/RxJS/Styled Components",
+        "Communicate with users when it is needed in order to solve specific issues",
+        "Always keep in sync with the design and backend teams",
+        "Keep the codebase maintainable be keeping it modular and self-documented",
+        "Write integration tests using Cypress",
+        "Document processes and 'tribal knowledge' in Confluence"
       ]
     },
     {
@@ -66,47 +66,47 @@
       "website": "https://www.theksquaregroup.com/",
       "startDate": "2021-07-19",
       "endDate": "2022-05-20",
-      "summary": "Trabajé como desarrollador nearshore para The Boy Scouts of America de Estados Unidos. Mi principal objetivo es entregar un resultado de alta calidad en tiempo y forma, siguiendo la cultura de Ksquare."
+      "summary": "Worked as a USA nearshore developer for The Boy Scouts of America. My main goal is to deliver a high-quality result in a timely manner, following the Ksquare culture."
     },
     {
       "company": "Génesis Aplicaciones",
-      "position": "Desarrollador web junior",
+      "position": "Junior Web Developer",
       "website": "https://ssl.timbraxml.com/",
       "startDate": "2020-01-08",
       "endDate": "2021-07-16",
-      "summary": "Encargado de desarrollar y mantener algunos productos web masivos, siendo el principal la aplicación web de facturación TimbraXML. Además de adquirir muchos conocimientos de desarrollo web frontend y backend, aprendí lo que es un buen flujo de trabajo entre un equipo de desarrollo profesional, apoyado por herramientas de control de versiones, tableros de progresión y canales de comunicación eficaces.",
+      "summary": "In charge of developing and maintaining some massive web products, the main one being the TimbraXML billing web application. Besides gaining a lot of knowledge of frontend and backend web development, I learned what is a good workflow among a professional development team, supported by version control tools, progression boards and effective communication channels.",
       "highlights": [
-        "Migrar, desarrollar y mantener la aplicación web de facturación TimbraXML",
-        "Entregar soluciones web a medida (PHP/CodeIgniter/JQuery) para franquicias a nivel nacional",
-        "Convierta los procesos básicos en bibliotecas documentadas con una sintaxis moderna y legible",
-        "Hacer flujos con Git para evitar choques entre los cambios de los compañeros de equipo"
+        "Migrate, develop and maintain the TimbraXML billing web application",
+        "Deliver custom web-based solutions (PHP/CodeIgniter/JQuery) for national level franchises",
+        "Turn core processes into documented libraries with modern and readable syntax",
+        "Make flows with Git to avoid crashes between teammate's changes"
       ]
     },
     {
       "company": "Grupo Dicas",
-      "position": "Asistente de apoyo técnico",
+      "position": "Technical Support Assistant",
       "website": "http://www.grupodicas.com.mx/",
       "startDate": "2019-06-17",
       "endDate": "2019-12-20",
-      "summary": "En un principio se me encomendó ser asistente de soporte técnico y administración de servidores, pero terminé haciendo todo el proceso de ingeniería para desarrollar una aplicación Android.",
+      "summary": "Originally tasked to be an assistant in technical support and server administration, I ended up doing all the engineering process to develop an Android application.",
       "highlights": [
-        "Recopilar e interpretar información sobre la experiencia de uso de programas informáticos por parte de usuarios con escasos o nulos conocimientos de informática",
-        "Utilización de arquitecturas modernas de diseño de software (MVVM y patrón observador)",
-        "Hacer ingeniería inversa de un sistema existente para integrarlo en otro con cero documentación",
-        "Implementación de una API REST con PHP y Laravel",
-        "Asegura las peticiones con tokens web JSON"
+        "Gather and interpret information about the experience of using software by users with little or no computer knowledge",
+        "Used modern software design architectures (MVVM and observer pattern)",
+        "Reverse engineer an existing system to integrate it to another with zero documentation",
+        "Implemented a REST API with PHP and Laravel",
+        "Secured the requests with JSON Web Tokens"
       ]
     },
     {
       "company": "Marbol Industria Mueblera",
-      "position": "Aprendiz de desarrollo de sistemas",
+      "position": "Systems development trainee",
       "website": "https://marbol.com.mx/quienes-somos",
       "startDate": "2018-06-04",
       "endDate": "2018-08-10",
-      "summary": "Miembro temporal del equipo de desarrollo y tutorizado por Félix Amaya Valencia, de quien obtuve rápidamente el reconocimiento y se me asignaron tareas del mismo peso que las que se daban a los miembros permanentes del equipo. Trabajando allí, aprendí a comprender la importancia de conocer los problemas en profundidad antes de escribir una sola línea de código.",
+      "summary": "Temporal member of the development team and mentored by Felix Amaya Valencia, from whom I quickly gained recognition and was assigned tasks of the same weight as those given to permanent members of the team. Working there, I learned to understand the importance of knowing the problems in depth before writing even a single line of code.",
       "highlights": [
-        "Diseñar módulos del sistema ERP interno a medida con C# Windows Forms.",
-        "Crear el backend para mis módulos utilizando tablas T-SQL y procedimientos almacenados."
+        "Design modules of the internal custom ERP system with C# Windows Forms.",
+        "Create the backend for my modules using T-SQL tables and stored procedures."
       ]
     }
   ],
@@ -115,9 +115,9 @@
       "institution": "Instituto Tecnológico de Mérida",
       "location": "Yucatán, México",
       "url": "https://www.itmerida.mx/",
-      "area": "Sistemas informáticos",
-      "studyType": "Ingeniero",
-      "specialization": "Inteligencia Artificial",
+      "area": "Computer Systems",
+      "studyType": "Engineer",
+      "specialization": "Artificial Intelligence",
       "startDate": "2016-08-15",
       "endDate": "2020-12-11",
       "score": "91.69",
@@ -128,8 +128,8 @@
     {
       "title": "HackSureste 2018",
       "date": "2018-11-23",
-      "awarder": "Equipo MeseBot",
-      "summary": "Gracias al liderazgo y las habilidades técnicas de Giovanny, el equipo Mesebot fue reconocido con el tercer lugar por crear un proyecto de innovación de alto impacto que consiste en un sistema para entregar los pedidos de los restaurantes directamente de la mesa a la cocina mediante comandos de voz. El equipo ganó un premio en efectivo, un pase a Talent Land en Guadalajara y una mentoría de emprendimiento por parte del Instituto Yucateco de Emprendedores (IYEM) que incluyó el registro del producto y una empresa registrada.",
+      "awarder": "Team MeseBot",
+      "summary": "Thanks to Giovanny's leadership and technical skills, Team Mesebot was recognized with third place for creating a high-impact innovation project consisting of a system to deliver restaurant orders directly from the table to the kitchen using voice commands. The team won a cash prize, a pass to Talent Land in Guadalajara and an entrepreneurship mentorship by Instituto Yucateco de Emprendedores (IYEM) that included product registration and a registered company.",
       "website": "https://github.com/gggiovanny/mesebot_legacy"
     }
   ],
@@ -139,13 +139,13 @@
       "publisher": "JOURNAL CIM: Coloquio de Investigación Multidisciplinaria (ISSN: 2007:8102)",
       "releaseDate": "2021-10-01",
       "url": "http://depi.orizaba.tecnm.mx/Journals/CIM_2021_1.8.pdf",
-      "summary": "Mi tesis de licenciatura en curso obtuvo una publicación derivada, y tuve el honor de presentarla en el evento internacional CIM-Orizaba-2021, donde despertó mucho interés."
+      "summary": "My ongoing bachelor dissertation got a derivate published paper, and I had the honor to present it at CIM-Orizaba-2021 International Event where it aroused a lot of interest."
     }
   ],
   "projects": [
     {
       "name": "Costeapp",
-      "description": "Una aplicación web offline para calcular los costes de las recetas de cocina.",
+      "description": "An offline-first web application for costing estimations of cooking recipes.",
       "highlights": [],
       "keywords": [
         "React",
@@ -162,7 +162,7 @@
     },
     {
       "name": "PetriPy",
-      "description": "Cree redes de Petri temporizadas de forma sencilla mediante nodos de lugar y transición que ejecutan acciones definidas por usted.",
+      "description": "Create timed Petri nets in a simple way through place and transition nodes that execute actions defined by you.",
       "highlights": [],
       "keywords": [],
       "startDate": "2021",
@@ -173,11 +173,11 @@
         "PyPI Package"
       ],
       "entity": "",
-      "type": "Proyecto derivado de mi tesis"
+      "type": "Dissertation derivate project"
     },
     {
-      "name": "Aplicación de validación de activos fijos",
-      "description": "Una aplicación androide para validar la existencia de activos fijos con un código QR.",
+      "name": "Asset validation application",
+      "description": "An android application to validate the existence of fixed assets with a QR code.",
       "highlights": [],
       "keywords": [
         "Mobile",
@@ -190,11 +190,11 @@
       "url": "https://github.com/gggiovanny/dicas-auditorias-app",
       "roles": [],
       "entity": "Grupo Dicas",
-      "type": "Proyecto empresarial"
+      "type": "Company project"
     },
     {
-      "name": "Estrategias inteligentes de control del tráfico urbano",
-      "description": "Basado en una arquitectura que se ejecuta en un simulador de tráfico urbano, donde cada semáforo es un agente inteligente que toma decisiones de prioridad de paso según las predicciones realizadas en base al comportamiento histórico de la intersección",
+      "name": "Intelligent urban traffic control strategies",
+      "description": "Based on an architecture running on an urban traffic simulator, where each traffic light is an intelligent agent that makes decisions to give passing priorities according to predictions made based on the historical behavior of the intersection",
       "highlights": [],
       "keywords": [
         "LaTeX",
@@ -207,11 +207,11 @@
       "url": "https://github.com/gggiovanny/TesisSemaforosInteligentes",
       "roles": [],
       "entity": "InstitutoInstituto Tecnológico de Mérida",
-      "type": "Tesis de licenciatura"
+      "type": "Bachelor dissertation"
     },
     {
       "name": "FiestasMexicanas",
-      "description": "Una aplicación de escritorio de Windows Forms para cotizar, gestionar pedidos y producir piñatas.",
+      "description": "A Windows Forms desktop application for quoting, order management and piñata production.",
       "highlights": [],
       "keywords": [
         "C#",
@@ -225,13 +225,13 @@
       "url": "https://github.com/gggiovanny/FiestasMexicanas",
       "roles": [],
       "entity": "",
-      "type": "Proyecto universitario"
+      "type": "School project"
     }
   ],
   "skills": [
     {
-      "name": "Desarrollo web frontend",
-      "level": "Experto",
+      "name": "Frontend web development",
+      "level": "Expert",
       "keywords": [
         "HTML/CSS",
         "Javascript",
@@ -250,8 +250,8 @@
       ]
     },
     {
-      "name": "Desarrollo web backend",
-      "level": "Avanzado",
+      "name": "Backend web development",
+      "level": "Advanced",
       "keywords": [
         "Python",
         "FastAPI",
@@ -268,8 +268,8 @@
       ]
     },
     {
-      "name": "Aplicaciones para Windows",
-      "level": "Intermedio",
+      "name": "Windows Desktop",
+      "level": "Intermediate",
       "keywords": [
         "C#",
         "SQL Server (T-SQL)",
@@ -278,8 +278,8 @@
       ]
     },
     {
-      "name": "Desarrollo móvil",
-      "level": "Intermedio",
+      "name": "Mobile development",
+      "level": "Intermediate",
       "keywords": [
         "Kotlin",
         "Java",
@@ -287,50 +287,50 @@
       ]
     },
     {
-      "name": "Conocimientos técnicos",
+      "name": "Tech skills",
       "level": "Ninja",
       "keywords": [
         "Git",
         "VS Code",
-        "Línea de comandos de Linux",
-        "Metodologías ágiles",
+        "Linux command line",
+        "Agile methodologies",
         "Markdown",
         "LaTeX"
       ]
     },
     {
-      "name": "Aprendiendo",
+      "name": "Learning",
       "level": "",
       "keywords": [
         "Amazon Web Services",
         "Remix framework",
-        "Microservicios"
+        "Microservices"
       ]
     },
     {
-      "name": "Habilidades blandas",
+      "name": "Soft skills",
       "level": "",
       "keywords": [
-        "Capacidad de análisis",
-        "Orientado al detalle",
-        "Pensamiento crítico",
-        "Integridad",
-        "Liderazgo",
-        "Investigación",
-        "Gestión del estrés",
-        "Visión empresarial",
-        "Comunicación escrita y oral"
+        "Analytical skills",
+        "Detail-oriented ",
+        "Critical thinking",
+        "Integrity",
+        "Leadership ",
+        "Research",
+        "Stress management",
+        "Business vision",
+        "Written and oral communication"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Español",
-      "fluency": "Nativo"
+      "language": "Spanish",
+      "fluency": "Native"
     },
     {
-      "language": "Inglés",
-      "fluency": "B2, Conversacional"
+      "language": "English",
+      "fluency": "B2, Conversational"
     }
   ],
   "volunteer": [
